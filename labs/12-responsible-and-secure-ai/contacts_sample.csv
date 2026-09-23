@@ -1,0 +1,5 @@
+contact_id,name,email,delegation,role,phone
+C001,Delegate 01,delegate01@example.org,Country A,Trade attache,+00 000 000 0001
+C002,Delegate 02,delegate02@example.org,Country B,Counsellor,+00 000 000 0002
+C003,Delegate 03,delegate03@example.org,Country C,First secretary,+00 000 000 0003
+C004,Delegate 04,delegate04@example.org,Country D,Ambassador,+00 000 000 0004
