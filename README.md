@@ -59,3 +59,4 @@ public data from the World Bank and published statistics web pages.
 ### Day 3: AI-Assisted Python Development
 - [Module 09: Introduction to Generative AI for Developers](labs/09-introduction-to-generative-ai/README.md)
 - [Module 10: Prompting Techniques for Python Development](labs/10-prompting-techniques/README.md)
+- [Module 11: Validating and Testing AI-Generated Code](labs/11-validating-and-testing-ai-code/README.md)
