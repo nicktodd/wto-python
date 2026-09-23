@@ -46,3 +46,4 @@ public data from the World Bank and published statistics web pages.
 
 ### Day 1: Python Fundamentals
 - [Module 01: Introduction to Python and Data Workflows](labs/01-introduction/README.md)
+- [Module 02: Python Basics](labs/02-python-basics/README.md)
