@@ -48,3 +48,4 @@ public data from the World Bank and published statistics web pages.
 - [Module 01: Introduction to Python and Data Workflows](labs/01-introduction/README.md)
 - [Module 02: Python Basics](labs/02-python-basics/README.md)
 - [Module 03: Working with Files](labs/03-working-with-files/README.md)
+- [Module 04: Introduction to pandas](labs/04-introduction-to-pandas/README.md)
