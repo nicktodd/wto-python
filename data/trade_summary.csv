@@ -1,0 +1,281 @@
+reporter_iso3,reporter,region,year,product_code,product_group,exports_usd_m,imports_usd_m
+AUS,Australia,Asia-Pacific,2019,AGR,Agricultural products,30669.2,23425.4
+AUS,Australia,Asia-Pacific,2019,FUE,Fuels and mining products,43007.1,50649.1
+AUS,Australia,Asia-Pacific,2019,MAN,Manufactures,223177.2,173112.9
+AUS,Australia,Asia-Pacific,2019,OTH,Other,13871.5,13323.2
+AUS,Australia,Asia-Pacific,2020,AGR,Agricultural products,25786.5,25127.5
+AUS,Australia,Asia-Pacific,2020,FUE,Fuels and mining products,42150.9,37701.1
+AUS,Australia,Asia-Pacific,2020,MAN,Manufactures,204969.1,164417.5
+AUS,Australia,Asia-Pacific,2020,OTH,Other,14392.2,12338.8
+AUS,Australia,Asia-Pacific,2021,AGR,Agricultural products,37023.8,30143.9
+AUS,Australia,Asia-Pacific,2021,FUE,Fuels and mining products,48410.8,59921.4
+AUS,Australia,Asia-Pacific,2021,MAN,Manufactures,253367.4,265220.6
+AUS,Australia,Asia-Pacific,2021,OTH,Other,18555.8,16548.5
+AUS,Australia,Asia-Pacific,2022,AGR,Agricultural products,40108.1,42215.7
+AUS,Australia,Asia-Pacific,2022,FUE,Fuels and mining products,57857.3,57333.7
+AUS,Australia,Asia-Pacific,2022,MAN,Manufactures,255088.9,227811.4
+AUS,Australia,Asia-Pacific,2022,OTH,Other,18235.5,15440.9
+AUS,Australia,Asia-Pacific,2023,AGR,Agricultural products,37394.6,33902.0
+AUS,Australia,Asia-Pacific,2023,FUE,Fuels and mining products,52348.3,53260.9
+AUS,Australia,Asia-Pacific,2023,MAN,Manufactures,262268.3,253314.6
+AUS,Australia,Asia-Pacific,2023,OTH,Other,18970.9,15530.7
+BRA,Brazil,South America,2019,AGR,Agricultural products,30193.1,29837.4
+BRA,Brazil,South America,2019,FUE,Fuels and mining products,43240.6,49869.0
+BRA,Brazil,South America,2019,MAN,Manufactures,187502.9,154612.4
+BRA,Brazil,South America,2019,OTH,Other,13479.7,13258.9
+BRA,Brazil,South America,2020,AGR,Agricultural products,27608.1,24709.3
+BRA,Brazil,South America,2020,FUE,Fuels and mining products,38407.7,45237.1
+BRA,Brazil,South America,2020,MAN,Manufactures,175422.8,165414.5
+BRA,Brazil,South America,2020,OTH,Other,12525.7,14317.3
+BRA,Brazil,South America,2021,AGR,Agricultural products,31681.7,30860.4
+BRA,Brazil,South America,2021,FUE,Fuels and mining products,48373.6,37469.2
+BRA,Brazil,South America,2021,MAN,Manufactures,211322.4,247961.1
+BRA,Brazil,South America,2021,OTH,Other,15899.5,13037.4
+BRA,Brazil,South America,2022,AGR,Agricultural products,38382.7,38685.6
+BRA,Brazil,South America,2022,FUE,Fuels and mining products,56419.0,44432.6
+BRA,Brazil,South America,2022,MAN,Manufactures,256157.0,243177.0
+BRA,Brazil,South America,2022,OTH,Other,18181.0,14860.6
+BRA,Brazil,South America,2023,AGR,Agricultural products,33907.1,42788.1
+BRA,Brazil,South America,2023,FUE,Fuels and mining products,49300.2,48616.9
+BRA,Brazil,South America,2023,MAN,Manufactures,254906.8,265705.1
+BRA,Brazil,South America,2023,OTH,Other,17459.7,16834.4
+CAN,Canada,North America,2019,AGR,Agricultural products,52100.1,53051.7
+CAN,Canada,North America,2019,FUE,Fuels and mining products,75364.2,58328.6
+CAN,Canada,North America,2019,MAN,Manufactures,323090.7,434922.4
+CAN,Canada,North America,2019,OTH,Other,26326.7,21443.0
+CAN,Canada,North America,2020,AGR,Agricultural products,49312.4,51179.4
+CAN,Canada,North America,2020,FUE,Fuels and mining products,69593.7,60138.2
+CAN,Canada,North America,2020,MAN,Manufactures,339344.7,276020.6
+CAN,Canada,North America,2020,OTH,Other,23435.3,22320.3
+CAN,Canada,North America,2021,AGR,Agricultural products,56792.9,51191.2
+CAN,Canada,North America,2021,FUE,Fuels and mining products,89423.0,73652.0
+CAN,Canada,North America,2021,MAN,Manufactures,434387.6,422405.0
+CAN,Canada,North America,2021,OTH,Other,28830.8,23317.1
+CAN,Canada,North America,2022,AGR,Agricultural products,61854.9,62904.1
+CAN,Canada,North America,2022,FUE,Fuels and mining products,90986.1,80560.0
+CAN,Canada,North America,2022,MAN,Manufactures,425222.3,546308.8
+CAN,Canada,North America,2022,OTH,Other,29570.0,29191.1
+CAN,Canada,North America,2023,AGR,Agricultural products,58211.0,55653.9
+CAN,Canada,North America,2023,FUE,Fuels and mining products,92540.1,94621.0
+CAN,Canada,North America,2023,MAN,Manufactures,448008.2,349994.5
+CAN,Canada,North America,2023,OTH,Other,30163.5,29411.7
+CHN,China,Asia-Pacific,2019,AGR,Agricultural products,310995.6,345655.3
+CHN,China,Asia-Pacific,2019,FUE,Fuels and mining products,421086.1,421352.3
+CHN,China,Asia-Pacific,2019,MAN,Manufactures,2221522.0,1795246.4
+CHN,China,Asia-Pacific,2019,OTH,Other,148766.7,140164.1
+CHN,China,Asia-Pacific,2020,AGR,Agricultural products,267831.4,323268.0
+CHN,China,Asia-Pacific,2020,FUE,Fuels and mining products,442695.9,396226.1
+CHN,China,Asia-Pacific,2020,MAN,Manufactures,2109015.8,2381754.9
+CHN,China,Asia-Pacific,2020,OTH,Other,149016.5,150470.5
+CHN,China,Asia-Pacific,2021,AGR,Agricultural products,344207.4,300660.0
+CHN,China,Asia-Pacific,2021,FUE,Fuels and mining products,480955.0,530685.7
+CHN,China,Asia-Pacific,2021,MAN,Manufactures,2324274.5,2670052.0
+CHN,China,Asia-Pacific,2021,OTH,Other,170375.0,220229.9
+CHN,China,Asia-Pacific,2022,AGR,Agricultural products,384399.6,391403.4
+CHN,China,Asia-Pacific,2022,FUE,Fuels and mining products,552911.0,687244.6
+CHN,China,Asia-Pacific,2022,MAN,Manufactures,2685005.5,2723830.3
+CHN,China,Asia-Pacific,2022,OTH,Other,193065.7,201480.4
+CHN,China,Asia-Pacific,2023,AGR,Agricultural products,345939.3,404337.4
+CHN,China,Asia-Pacific,2023,FUE,Fuels and mining products,521402.9,585845.4
+CHN,China,Asia-Pacific,2023,MAN,Manufactures,2453454.8,2308121.2
+CHN,China,Asia-Pacific,2023,OTH,Other,175569.2,193546.4
+DEU,Germany,Europe,2019,AGR,Agricultural products,148061.4,155585.4
+DEU,Germany,Europe,2019,FUE,Fuels and mining products,240649.4,205245.5
+DEU,Germany,Europe,2019,MAN,Manufactures,1006099.2,1033871.6
+DEU,Germany,Europe,2019,OTH,Other,72600.0,72285.5
+DEU,Germany,Europe,2020,AGR,Agricultural products,129959.2,148112.2
+DEU,Germany,Europe,2020,FUE,Fuels and mining products,225859.3,165567.6
+DEU,Germany,Europe,2020,MAN,Manufactures,939814.9,1215550.0
+DEU,Germany,Europe,2020,OTH,Other,73982.7,62489.6
+DEU,Germany,Europe,2021,AGR,Agricultural products,181711.4,189877.5
+DEU,Germany,Europe,2021,FUE,Fuels and mining products,278921.4,253055.4
+DEU,Germany,Europe,2021,MAN,Manufactures,1268764.5,1139633.5
+DEU,Germany,Europe,2021,OTH,Other,92307.2,69102.3
+DEU,Germany,Europe,2022,AGR,Agricultural products,178522.5,187469.1
+DEU,Germany,Europe,2022,FUE,Fuels and mining products,290542.8,295892.0
+DEU,Germany,Europe,2022,MAN,Manufactures,1362141.0,1205393.2
+DEU,Germany,Europe,2022,OTH,Other,101427.3,101363.0
+DEU,Germany,Europe,2023,AGR,Agricultural products,180762.3,153415.3
+DEU,Germany,Europe,2023,FUE,Fuels and mining products,286407.6,278526.7
+DEU,Germany,Europe,2023,MAN,Manufactures,1330442.7,1292353.4
+DEU,Germany,Europe,2023,OTH,Other,84321.6,80609.7
+IND,India,Asia-Pacific,2019,AGR,Agricultural products,42585.1,42909.9
+IND,India,Asia-Pacific,2019,FUE,Fuels and mining products,60792.1,48481.2
+IND,India,Asia-Pacific,2019,MAN,Manufactures,271410.0,340069.4
+IND,India,Asia-Pacific,2019,OTH,Other,21154.2,22115.6
+IND,India,Asia-Pacific,2020,AGR,Agricultural products,35709.2,32691.9
+IND,India,Asia-Pacific,2020,FUE,Fuels and mining products,59229.6,54747.3
+IND,India,Asia-Pacific,2020,MAN,Manufactures,246007.3,322979.5
+IND,India,Asia-Pacific,2020,OTH,Other,20017.2,22188.3
+IND,India,Asia-Pacific,2021,AGR,Agricultural products,42502.4,49000.8
+IND,India,Asia-Pacific,2021,FUE,Fuels and mining products,73756.2,81846.9
+IND,India,Asia-Pacific,2021,MAN,Manufactures,338009.8,305389.1
+IND,India,Asia-Pacific,2021,OTH,Other,21557.8,27940.0
+IND,India,Asia-Pacific,2022,AGR,Agricultural products,48543.9,56869.5
+IND,India,Asia-Pacific,2022,FUE,Fuels and mining products,73824.9,81488.6
+IND,India,Asia-Pacific,2022,MAN,Manufactures,328498.4,303379.0
+IND,India,Asia-Pacific,2022,OTH,Other,26880.7,29078.3
+IND,India,Asia-Pacific,2023,AGR,Agricultural products,49904.7,50447.8
+IND,India,Asia-Pacific,2023,FUE,Fuels and mining products,73624.2,80764.2
+IND,India,Asia-Pacific,2023,MAN,Manufactures,367310.2,319709.4
+IND,India,Asia-Pacific,2023,OTH,Other,23484.4,20362.6
+JPN,Japan,Asia-Pacific,2019,AGR,Agricultural products,74632.8,67766.2
+JPN,Japan,Asia-Pacific,2019,FUE,Fuels and mining products,108197.4,104303.1
+JPN,Japan,Asia-Pacific,2019,MAN,Manufactures,484220.8,502551.6
+JPN,Japan,Asia-Pacific,2019,OTH,Other,38451.3,37837.1
+JPN,Japan,Asia-Pacific,2020,AGR,Agricultural products,69552.2,69976.2
+JPN,Japan,Asia-Pacific,2020,FUE,Fuels and mining products,93529.3,104130.4
+JPN,Japan,Asia-Pacific,2020,MAN,Manufactures,454764.6,552743.4
+JPN,Japan,Asia-Pacific,2020,OTH,Other,32410.4,30472.7
+JPN,Japan,Asia-Pacific,2021,AGR,Agricultural products,81507.0,71498.0
+JPN,Japan,Asia-Pacific,2021,FUE,Fuels and mining products,122619.1,150221.6
+JPN,Japan,Asia-Pacific,2021,MAN,Manufactures,616954.6,587068.9
+JPN,Japan,Asia-Pacific,2021,OTH,Other,41717.5,31997.3
+JPN,Japan,Asia-Pacific,2022,AGR,Agricultural products,90414.2,96701.3
+JPN,Japan,Asia-Pacific,2022,FUE,Fuels and mining products,136391.6,127849.0
+JPN,Japan,Asia-Pacific,2022,MAN,Manufactures,637333.9,777976.8
+JPN,Japan,Asia-Pacific,2022,OTH,Other,43303.7,38221.0
+JPN,Japan,Asia-Pacific,2023,AGR,Agricultural products,89708.4,86229.4
+JPN,Japan,Asia-Pacific,2023,FUE,Fuels and mining products,137054.4,134660.8
+JPN,Japan,Asia-Pacific,2023,MAN,Manufactures,585280.2,477584.1
+JPN,Japan,Asia-Pacific,2023,OTH,Other,43745.3,46642.4
+KEN,Kenya,Africa,2019,AGR,Agricultural products,690.4,700.3
+KEN,Kenya,Africa,2019,FUE,Fuels and mining products,1083.0,1004.7
+KEN,Kenya,Africa,2019,MAN,Manufactures,5022.3,4088.7
+KEN,Kenya,Africa,2019,OTH,Other,365.1,291.4
+KEN,Kenya,Africa,2020,AGR,Agricultural products,617.2,772.5
+KEN,Kenya,Africa,2020,FUE,Fuels and mining products,906.2,927.5
+KEN,Kenya,Africa,2020,MAN,Manufactures,4525.3,5243.3
+KEN,Kenya,Africa,2020,OTH,Other,350.9,362.3
+KEN,Kenya,Africa,2021,AGR,Agricultural products,855.4,870.8
+KEN,Kenya,Africa,2021,FUE,Fuels and mining products,1208.4,1377.6
+KEN,Kenya,Africa,2021,MAN,Manufactures,5993.1,6159.1
+KEN,Kenya,Africa,2021,OTH,Other,387.0,369.8
+KEN,Kenya,Africa,2022,AGR,Agricultural products,926.8,914.8
+KEN,Kenya,Africa,2022,FUE,Fuels and mining products,1285.4,1070.1
+KEN,Kenya,Africa,2022,MAN,Manufactures,5995.7,5811.3
+KEN,Kenya,Africa,2022,OTH,Other,418.8,409.0
+KEN,Kenya,Africa,2023,AGR,Agricultural products,882.2,694.7
+KEN,Kenya,Africa,2023,FUE,Fuels and mining products,1289.7,1179.8
+KEN,Kenya,Africa,2023,MAN,Manufactures,5901.6,7039.5
+KEN,Kenya,Africa,2023,OTH,Other,440.4,508.7
+MEX,Mexico,North America,2019,AGR,Agricultural products,51004.8,40733.0
+MEX,Mexico,North America,2019,FUE,Fuels and mining products,81163.4,95486.4
+MEX,Mexico,North America,2019,MAN,Manufactures,359283.8,402991.0
+MEX,Mexico,North America,2019,OTH,Other,26429.5,22056.9
+MEX,Mexico,North America,2020,AGR,Agricultural products,47863.5,38220.4
+MEX,Mexico,North America,2020,FUE,Fuels and mining products,74619.2,66024.8
+MEX,Mexico,North America,2020,MAN,Manufactures,336753.7,293733.3
+MEX,Mexico,North America,2020,OTH,Other,22349.9,23393.5
+MEX,Mexico,North America,2021,AGR,Agricultural products,55275.3,59529.9
+MEX,Mexico,North America,2021,FUE,Fuels and mining products,89150.3,72141.2
+MEX,Mexico,North America,2021,MAN,Manufactures,399288.2,405891.4
+MEX,Mexico,North America,2021,OTH,Other,29321.7,34662.0
+MEX,Mexico,North America,2022,AGR,Agricultural products,63422.4,50766.5
+MEX,Mexico,North America,2022,FUE,Fuels and mining products,99684.8,116014.8
+MEX,Mexico,North America,2022,MAN,Manufactures,473385.4,526770.5
+MEX,Mexico,North America,2022,OTH,Other,34363.2,37084.5
+MEX,Mexico,North America,2023,AGR,Agricultural products,58571.7,51352.4
+MEX,Mexico,North America,2023,FUE,Fuels and mining products,97740.1,93190.9
+MEX,Mexico,North America,2023,MAN,Manufactures,458252.5,465365.1
+MEX,Mexico,North America,2023,OTH,Other,32264.3,32715.3
+NGA,Nigeria,Africa,2019,AGR,Agricultural products,5781.0,6113.4
+NGA,Nigeria,Africa,2019,FUE,Fuels and mining products,7623.9,7845.9
+NGA,Nigeria,Africa,2019,MAN,Manufactures,41322.3,38178.2
+NGA,Nigeria,Africa,2019,OTH,Other,2563.4,3019.9
+NGA,Nigeria,Africa,2020,AGR,Agricultural products,4789.2,5990.4
+NGA,Nigeria,Africa,2020,FUE,Fuels and mining products,7795.8,7013.5
+NGA,Nigeria,Africa,2020,MAN,Manufactures,37424.2,33231.4
+NGA,Nigeria,Africa,2020,OTH,Other,2504.5,2498.5
+NGA,Nigeria,Africa,2021,AGR,Agricultural products,6678.8,6689.8
+NGA,Nigeria,Africa,2021,FUE,Fuels and mining products,10187.0,10528.1
+NGA,Nigeria,Africa,2021,MAN,Manufactures,45743.6,44745.9
+NGA,Nigeria,Africa,2021,OTH,Other,3398.0,3013.3
+NGA,Nigeria,Africa,2022,AGR,Agricultural products,7027.7,6867.4
+NGA,Nigeria,Africa,2022,FUE,Fuels and mining products,10864.8,10041.8
+NGA,Nigeria,Africa,2022,MAN,Manufactures,51482.4,43302.9
+NGA,Nigeria,Africa,2022,OTH,Other,3349.4,3504.0
+NGA,Nigeria,Africa,2023,AGR,Agricultural products,6580.1,5750.8
+NGA,Nigeria,Africa,2023,FUE,Fuels and mining products,9552.6,9330.4
+NGA,Nigeria,Africa,2023,MAN,Manufactures,45770.1,55857.4
+NGA,Nigeria,Africa,2023,OTH,Other,3234.9,2891.0
+GBR,United Kingdom,Europe,2019,AGR,Agricultural products,43883.8,51043.9
+GBR,United Kingdom,Europe,2019,FUE,Fuels and mining products,73412.1,77646.4
+GBR,United Kingdom,Europe,2019,MAN,Manufactures,328516.8,343618.2
+GBR,United Kingdom,Europe,2019,OTH,Other,22453.2,24518.2
+GBR,United Kingdom,Europe,2020,AGR,Agricultural products,44280.4,43456.4
+GBR,United Kingdom,Europe,2020,FUE,Fuels and mining products,64783.5,70065.2
+GBR,United Kingdom,Europe,2020,MAN,Manufactures,315900.8,266878.0
+GBR,United Kingdom,Europe,2020,OTH,Other,20528.5,18000.8
+GBR,United Kingdom,Europe,2021,AGR,Agricultural products,54360.2,56710.2
+GBR,United Kingdom,Europe,2021,FUE,Fuels and mining products,77395.9,83457.5
+GBR,United Kingdom,Europe,2021,MAN,Manufactures,407201.9,368812.7
+GBR,United Kingdom,Europe,2021,OTH,Other,25297.7,22684.2
+GBR,United Kingdom,Europe,2022,AGR,Agricultural products,56628.5,48352.5
+GBR,United Kingdom,Europe,2022,FUE,Fuels and mining products,86301.9,107430.8
+GBR,United Kingdom,Europe,2022,MAN,Manufactures,431027.9,376319.7
+GBR,United Kingdom,Europe,2022,OTH,Other,29801.4,34700.9
+GBR,United Kingdom,Europe,2023,AGR,Agricultural products,57059.2,53147.8
+GBR,United Kingdom,Europe,2023,FUE,Fuels and mining products,79836.2,100823.8
+GBR,United Kingdom,Europe,2023,MAN,Manufactures,422066.5,359172.0
+GBR,United Kingdom,Europe,2023,OTH,Other,29263.8,22228.9
+USA,United States,North America,2019,AGR,Agricultural products,191910.3,188928.4
+USA,United States,North America,2019,FUE,Fuels and mining products,267601.4,320507.5
+USA,United States,North America,2019,MAN,Manufactures,1391869.6,1188341.9
+USA,United States,North America,2019,OTH,Other,94247.8,98172.5
+USA,United States,North America,2020,AGR,Agricultural products,190554.2,166099.6
+USA,United States,North America,2020,FUE,Fuels and mining products,269699.2,311308.6
+USA,United States,North America,2020,MAN,Manufactures,1179070.1,1122006.3
+USA,United States,North America,2020,OTH,Other,83502.2,71599.4
+USA,United States,North America,2021,AGR,Agricultural products,201113.5,217388.7
+USA,United States,North America,2021,FUE,Fuels and mining products,316803.6,302233.6
+USA,United States,North America,2021,MAN,Manufactures,1579175.1,1546390.0
+USA,United States,North America,2021,OTH,Other,116660.0,124265.8
+USA,United States,North America,2022,AGR,Agricultural products,247523.0,279766.1
+USA,United States,North America,2022,FUE,Fuels and mining products,364530.7,408373.2
+USA,United States,North America,2022,MAN,Manufactures,1777374.0,1324719.3
+USA,United States,North America,2022,OTH,Other,116936.1,134133.7
+USA,United States,North America,2023,AGR,Agricultural products,223960.0,202916.3
+USA,United States,North America,2023,FUE,Fuels and mining products,358811.6,409298.3
+USA,United States,North America,2023,MAN,Manufactures,1620989.1,1250878.6
+USA,United States,North America,2023,OTH,Other,114639.5,103362.7
+VNM,Viet Nam,Asia-Pacific,2019,AGR,Agricultural products,30842.2,41198.8
+VNM,Viet Nam,Asia-Pacific,2019,FUE,Fuels and mining products,50095.6,63095.6
+VNM,Viet Nam,Asia-Pacific,2019,MAN,Manufactures,237367.5,194276.5
+VNM,Viet Nam,Asia-Pacific,2019,OTH,Other,17176.5,16700.6
+VNM,Viet Nam,Asia-Pacific,2020,AGR,Agricultural products,32733.1,27145.6
+VNM,Viet Nam,Asia-Pacific,2020,FUE,Fuels and mining products,47027.8,42881.9
+VNM,Viet Nam,Asia-Pacific,2020,MAN,Manufactures,209604.0,205963.9
+VNM,Viet Nam,Asia-Pacific,2020,OTH,Other,16223.3,14743.5
+VNM,Viet Nam,Asia-Pacific,2021,AGR,Agricultural products,36664.1,46951.1
+VNM,Viet Nam,Asia-Pacific,2021,FUE,Fuels and mining products,57381.3,54237.5
+VNM,Viet Nam,Asia-Pacific,2021,MAN,Manufactures,258138.4,310772.9
+VNM,Viet Nam,Asia-Pacific,2021,OTH,Other,19019.3,23251.9
+VNM,Viet Nam,Asia-Pacific,2022,AGR,Agricultural products,42195.6,38433.4
+VNM,Viet Nam,Asia-Pacific,2022,FUE,Fuels and mining products,61474.7,70704.3
+VNM,Viet Nam,Asia-Pacific,2022,MAN,Manufactures,305573.7,260619.5
+VNM,Viet Nam,Asia-Pacific,2022,OTH,Other,22388.9,21084.5
+VNM,Viet Nam,Asia-Pacific,2023,AGR,Agricultural products,37821.4,48713.6
+VNM,Viet Nam,Asia-Pacific,2023,FUE,Fuels and mining products,57871.0,52561.9
+VNM,Viet Nam,Asia-Pacific,2023,MAN,Manufactures,284176.1,254548.0
+VNM,Viet Nam,Asia-Pacific,2023,OTH,Other,21460.0,18606.5
+ZAF,South Africa,Africa,2019,AGR,Agricultural products,11584.6,11373.8
+ZAF,South Africa,Africa,2019,FUE,Fuels and mining products,16523.4,15808.2
+ZAF,South Africa,Africa,2019,MAN,Manufactures,82916.6,69673.8
+ZAF,South Africa,Africa,2019,OTH,Other,5397.6,6436.6
+ZAF,South Africa,Africa,2020,AGR,Agricultural products,10850.9,11300.0
+ZAF,South Africa,Africa,2020,FUE,Fuels and mining products,16057.0,15852.8
+ZAF,South Africa,Africa,2020,MAN,Manufactures,71698.7,77984.6
+ZAF,South Africa,Africa,2020,OTH,Other,4950.1,5715.4
+ZAF,South Africa,Africa,2021,AGR,Agricultural products,12629.0,10939.0
+ZAF,South Africa,Africa,2021,FUE,Fuels and mining products,18504.8,19503.6
+ZAF,South Africa,Africa,2021,MAN,Manufactures,87917.3,78140.6
+ZAF,South Africa,Africa,2021,OTH,Other,6524.9,6229.3
+ZAF,South Africa,Africa,2022,AGR,Agricultural products,14585.9,11867.0
+ZAF,South Africa,Africa,2022,FUE,Fuels and mining products,21643.1,23135.7
+ZAF,South Africa,Africa,2022,MAN,Manufactures,100351.1,118824.6
+ZAF,South Africa,Africa,2022,OTH,Other,6979.8,5693.5
+ZAF,South Africa,Africa,2023,AGR,Agricultural products,13613.6,16326.8
+ZAF,South Africa,Africa,2023,FUE,Fuels and mining products,19937.7,20198.8
+ZAF,South Africa,Africa,2023,MAN,Manufactures,97283.4,92800.0
+ZAF,South Africa,Africa,2023,OTH,Other,6338.9,7125.7

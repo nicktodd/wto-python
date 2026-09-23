@@ -1,0 +1,8 @@
+jupyterlab
+pandas
+openpyxl
+requests
+beautifulsoup4
+lxml
+matplotlib
+pytest
