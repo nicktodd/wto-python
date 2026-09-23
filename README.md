@@ -49,3 +49,6 @@ public data from the World Bank and published statistics web pages.
 - [Module 02: Python Basics](labs/02-python-basics/README.md)
 - [Module 03: Working with Files](labs/03-working-with-files/README.md)
 - [Module 04: Introduction to pandas](labs/04-introduction-to-pandas/README.md)
+
+### Day 2: Data Extraction and Preparation
+- [Module 05: Acquiring Data from External Sources](labs/05-acquiring-data-from-apis/README.md)
