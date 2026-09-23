@@ -61,3 +61,6 @@ public data from the World Bank and published statistics web pages.
 - [Module 10: Prompting Techniques for Python Development](labs/10-prompting-techniques/README.md)
 - [Module 11: Validating and Testing AI-Generated Code](labs/11-validating-and-testing-ai-code/README.md)
 - [Module 12: Responsible and Secure Use of AI](labs/12-responsible-and-secure-ai/README.md)
+
+### Capstone (optional)
+- [Capstone: Build an AI-Assisted Data Extraction Solution](labs/13-capstone/README.md)

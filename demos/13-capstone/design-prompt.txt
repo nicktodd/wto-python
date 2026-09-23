@@ -1,0 +1,12 @@
+I need to answer this question:
+<paste your question from requirement.md>
+
+Data: World Bank indicators NE.EXP.GNFS.ZS
+and TM.TAX.MRCH.SM.AR.ZS for 14 economies,
+2015-2023, via the public API (no key).
+
+Propose a design for a small Python solution:
+steps, functions, how to validate the numbers
+and which pytest tests to write.
+Do not write code yet.
+List risks and assumptions.
