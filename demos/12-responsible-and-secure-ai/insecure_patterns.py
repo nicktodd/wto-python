@@ -10,7 +10,7 @@ import sqlite3
 import requests
 
 # 1. Secret hard-coded in source code
-API_KEY = "sk-live-4f9a2c7e1b8d"
+API_KEY = "sk-live-EXAMPLE-NOT-A-REAL-KEY"
 
 # 1. Fix: read it from the environment
 API_KEY = os.environ["STATS_API_KEY"]

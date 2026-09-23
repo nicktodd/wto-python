@@ -1,0 +1,6 @@
+version: 2
+secret:
+  ignored_paths:
+    # Deliberately insecure teaching files for Module 12: all secrets are fake.
+    - demos/12-responsible-and-secure-ai/insecure_patterns.py
+    - labs/12-responsible-and-secure-ai/briefing_tool.py

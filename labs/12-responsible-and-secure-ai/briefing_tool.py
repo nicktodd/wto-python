@@ -18,8 +18,8 @@ import pandas as pd
 import requests
 import wto_tariff_tools  # pip install wto-tariff-tools
 
-STATS_API_KEY = "sk-live-4f9a2c7e1b8d9e0f"
-SMTP_PASSWORD = "Summer2026!"
+STATS_API_KEY = "sk-live-EXAMPLE-NOT-A-REAL-KEY"
+SMTP_PASSWORD = "EXAMPLE-PASSWORD-DO-NOT-USE"
 SUMMARY_API = "https://free-ai-summary.example.com/v1/summarise"
 
 logging.basicConfig(filename="briefing.log", level=logging.DEBUG)
