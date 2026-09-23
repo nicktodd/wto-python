@@ -1,0 +1,32 @@
+=== 1. Weak prompt ===
+Get tariff data from the World Bank.
+
+=== 2. Add business context ===
+I am an analyst preparing a briefing on
+applied tariffs for trade policy colleagues.
+Using Python, requests and pandas, get the
+World Bank indicator TM.TAX.MRCH.SM.AR.ZS
+(applied tariff, simple mean, %) for Kenya,
+Brazil and India, 2015 to 2023.
+
+=== 3. Specify format and constraints ===
+Return a tidy DataFrame with columns iso3,
+country, year (int) and tariff_pct.
+Use a 30 second timeout. Raise a clear error
+if the API returns an error message.
+Keep missing values as NaN; do not fill them.
+
+=== 4. Iterate: one improvement at a time ===
+Now add a fallback: if the request fails,
+load data/cache/wb_tariff_applied_mean.json
+and log a warning using the logging module.
+
+=== 5. Ask for explanation and documentation ===
+Add a module docstring, function docstrings
+and comments explaining why, not what.
+Then list every assumption you have made.
+
+=== 6. Ask for review ===
+Act as a critical code reviewer. What could
+go wrong with this code, and how would I
+test it?
