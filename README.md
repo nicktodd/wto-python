@@ -55,3 +55,6 @@ public data from the World Bank and published statistics web pages.
 - [Module 06: Collecting Data from Web Sources](labs/06-collecting-data-from-web-sources/README.md)
 - [Module 07: Data Cleaning and Transformation](labs/07-data-cleaning-and-transformation/README.md)
 - [Module 08: Building Reusable Data Pipelines](labs/08-building-reusable-data-pipelines/README.md)
+
+### Day 3: AI-Assisted Python Development
+- [Module 09: Introduction to Generative AI for Developers](labs/09-introduction-to-generative-ai/README.md)
