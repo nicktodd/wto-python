@@ -1,260 +1,263 @@
 Reporter,Partner,Period,Flow,Value,Unit
-South Africa,World,31/12/2023,Exports,135215.2,USD millions
-Nigeria,Asia-Pacific,31/12/2020,Exports,6147.6,USD millions
+South Africa,Africa,Dec 2023,Exports,10458.4,USD millions
+Nigeria,South America,31/12/2023,Exports,"4,952.5",USD millions
 Brazil,Asia-Pacific,31/12/2022,Exports,119758.3,USD millions
-Nigeria,World,Dec 2023,Exports,62257.5,USD millions
-India,Europe,2019-12-31,Exports,107273.0,USD millions
-Vietnam,Africa,Dec 2019,Exports,97222.5,USD millions
-Nigeria,North America,2020-12-31,Exports,11462.7,USD millions
-Kenya,Asia-Pacific,2023,Exports,2599.7,USD millions
-germany,World,2023,Exports,1871488.1,USD millions
-India,Asia-Pacific,31/12/2020,Exports,106945.2,USD millions
-United Kingdom,South America,31/12/2020,Exports,164531.3,USD millions
-Kenya,World,2021,Exports,8356.0,USD millions
-South Africa,North America,2019,Exports,15803.9,USD millions
-united states ,North America,2021,Exports,193396.9,USD millions
-Japan,World,2021-12-31,Exports,"805,689.9",USD millions
+Nigeria,North America,2023,Exports,18228.1,USD millions
+Nigeria,Europe,2021-12-31,Exports,"20,379.9",USD millions
+United Kingdom,North America,2019-12-31,Exports,51083.2,USD millions
+Nigeria,World,2021,Exports,68139.1,USD millions
+South Africa,South America,Dec 2019,Exports,23310.3,USD millions
+India,South America,2021-12-31,Exports,151210.7,USD millions
+Vietnam,Europe,2019-12-31,Exports,43705.8,USD millions
+Mexico,South America,31/12/2019,Exports,"153,945.4",USD millions
+China,South America,Dec 2019,Exports,531480.6,USD millions
+Kenya,Africa,Dec 2023,Exports,"2,498.9",USD millions
+Vietnam,World,Dec 2020,Exports,330186.1,USD millions
+Canada,World,2022,Exports,629145.4,USD millions
 Brazil,World,2020-12-31,Exports,277511.9,USD millions
 Australia,Africa,2020,Exports,80039.3,USD millions
-Canada,South America,Dec 2022,Exports,198737.6,USD millions
-China,South America,31/12/2023,Exports,271860.1,USD millions
-Vietnam,Asia-Pacific,Dec 2021,Exports,73979.9,USD millions
-Japan,South America,2022,Exports,"203,809.4",USD millions
-China,Africa,31/12/2023,Exports,670711.6,USD millions
+Nigeria,Africa,31/12/2021,Exports,13791.9,USD millions
+Nigeria,Africa,Dec 2020,Exports,,USD millions
+Kenya,South America,2023,Exports,2180.2,USD millions
+China,Europe,2021-12-31,Exports,583461.1,USD millions
+germany,Europe,31/12/2019,Exports,399802.3,USD millions
+Japan,World,Dec 2019,Exports,712007.0,USD millions
+India,North America,Dec 2021,Exports,"73,014.7",USD millions
+Australia,South America,2020,Exports,49822.4,USD millions
+Nigeria,Europe,2019-12-31,Exports,9344.3,USD millions
+Vietnam,North America,31/12/2020,Exports,29075.5,USD millions
 India,Asia-Pacific,2022,Exports,38341.9,USD millions
 Canada,World,2021,Exports,608824.2,USD millions
-U.K.,Europe,Dec 2023,Exports,201361.9,USD millions
-China,Africa,2022,Exports,"664,794.4",USD millions
-Mexico,South America,31/12/2019,Exports,"153,945.4",USD millions
-germany,North America,31/12/2021,Exports,548359.5,USD millions
-Nigeria,Asia-Pacific,2023-12-31,Exports,"5,660.5",USD millions
-India,Asia-Pacific,2019-12-31,Exports,102590.7,USD millions
+South Africa,Africa,2019,Exports,22260.4,USD millions
 Australia,South America,Dec 2021,Exports,92144.6,USD millions
-Vietnam,South America,Dec 2023,Exports,109459.4,USD millions
-India,Africa,2023-12-31,Exports,"98,795.9",USD millions
+United States,Africa,31/12/2022,Exports,,USD millions
+Federal Republic of Germany,Europe,2023,Exports,500004.2,USD millions
 Brazil,Europe,Dec 2021,Exports,57595.3,USD millions
-China,World,2021,Exports,3502889.6,USD millions
-South Africa,Asia-Pacific,Dec 2020,Exports,28287.4,USD millions
-Australia,Asia-Pacific,Dec 2019,Exports,58556.3,USD millions
-Germany,Asia-Pacific,31/12/2021,Exports,538142.4,USD millions
-China,Europe,2021-12-31,Exports,583461.1,USD millions
-Vietnam,Asia-Pacific,2020-12-31,Exports,94724.0,USD millions
-Mexico,Africa,Dec 2022,Exports,118211.3,USD millions
-Australia,Europe,Dec 2020,Exports,32258.8,USD millions
-South Africa,World,2021-12-31,Exports,"135,918.2",USD millions
-China,Europe,2022-12-31,Exports,236239.8,USD millions
-Viet Nam,Europe,2021-12-31,Exports,70641.9,USD millions
-Viet Nam,World,Dec 2023,Exports,377355.7,USD millions
-Canada,Asia-Pacific,2023,Exports,66877.1,USD millions
-Brazil,North America,2020-12-31,Exports,84564.2,USD millions
-Kenya,Africa,2020,Exports,1537.4,USD millions
-Japan,South America,Dec 2019,Exports,140234.8,USD millions
-Nigeria,Africa,2023-12-31,Exports,"16,414.3",USD millions
-South Africa,Africa,2020,Exports,26966.1,USD millions
-Viet Nam,World,Dec 2021,Exports,371022.0,USD millions
-Australia,North America,2022,Exports,103608.6,USD millions
-Nigeria,South America,31/12/2023,Exports,"4,952.5",USD millions
-Nigeria,South America,2019-12-31,Exports,10442.2,USD millions
-United Kingdom,North America,2020-12-31,Exports,44117.6,USD millions
-germany,World,2020,Exports,"1,354,541.5",USD millions
-Mexico,Europe,2019-12-31,Exports,"124,938.3",USD millions
-South Africa,Asia-Pacific,2019,Exports,12266.2,USD millions
-Nigeria,Africa,31/12/2022,Exports,10190.5,USD millions
-Viet Nam,North America,2019,Exports,106672.2,USD millions
-South Africa,South America,Dec 2019,Exports,23310.3,USD millions
-USA,Europe,Dec 2023,Exports,451983.3,USD millions
-U.K.,North America,Dec 2022,Exports,202612.7,USD millions
-United Kingdom,Asia-Pacific,Dec 2021,Exports,177999.0,USD millions
-China,Asia-Pacific,31/12/2023,Exports,960758.7,USD millions
-Vietnam,North America,Dec 2023,Exports,105975.5,USD millions
-United States,South America,2023-12-31,Exports,222038.7,USD millions
-Germany,World,31/12/2021,Exports,1753406.5,USD millions
-Japan,World,Dec 2019,Exports,712007.0,USD millions
-South Africa,Europe,31/12/2020,Exports,16850.0,USD millions
-Canada,Asia-Pacific,2019,Exports,123914.6,USD millions
-UK,Asia-Pacific,Dec 2023,Exports,"123,229.5",USD millions
-India,Europe,Dec 2020,Exports,90558.3,USD millions
-Kenya,South America,2023,Exports,2180.2,USD millions
-Canada,World,2022,Exports,629145.4,USD millions
-Nigeria,Europe,Dec 2020,Exports,9365.6,USD millions
-Australia,Europe,31/12/2022,Exports,"92,478.8",USD millions
-South Africa,Africa,Dec 2023,Exports,10458.4,USD millions
-Brazil,World,31/12/2021,Exports,345109.1,USD millions
-united states ,World,2023-12-31,Exports,2179359.9,USD millions
-germany,South America,2019,Exports,267053.0,USD millions
-Nigeria,Africa,31/12/2019,Exports,4851.0,USD millions
-India,Europe,2019-12-31,Exports,107273.0,USD millions
-Australia,Africa,Dec 2021,Exports,104767.6,USD millions
-Japan,North America,Dec 2023,Exports,207865.9,USD millions
-Mexico,Asia-Pacific,2023-12-31,Exports,39140.2,USD millions
-Japan,World,Dec 2022,Exports,"907,442.8",USD millions
-Mexico,World,Dec 2023,Exports,600277.7,USD millions
-united states ,North America,2019,Exports,144085.4,USD millions
-germany,South America,2020,Exports,354517.2,USD millions
-India,North America,Dec 2021,Exports,"73,014.7",USD millions
-Canada,South America,2019-12-31,Exports,132654.3,USD millions
-U.S.,Europe,2022,Exports,584506.9,USD millions
 China,Asia-Pacific,31/12/2021,Exports,1054235.8,USD millions
-Mexico,South America,31/12/2023,Exports,190185.5,USD millions
-Vietnam,Asia-Pacific,2022,Exports,118375.4,USD millions
-Japan,Africa,2022,Exports,"207,513.1",USD millions
-Australia,Africa,Dec 2022,Exports,85048.3,USD millions
-South Africa,Europe,Dec 2019,Exports,9346.7,USD millions
-Germany,North America,2023-12-31,Exports,139039.1,USD millions
-Australia,World,Dec 2023,Exports,390217.0,USD millions
+united states ,Africa,2023-12-31,Exports,551157.0,USD millions
+Australia,Asia-Pacific,Dec 2019,Exports,58556.3,USD millions
+South Africa,North America,2019,Exports,15803.9,USD millions
+China,Africa,2022,Exports,"664,794.4",USD millions
+China,Africa,31/12/2023,Exports,670711.6,USD millions
+China,World,2021,Exports,3502889.6,USD millions
+Australia,Europe,Dec 2020,Exports,32258.8,USD millions
+Canada,South America,Dec 2022,Exports,198737.6,USD millions
+Nigeria,Asia-Pacific,31/12/2020,Exports,6147.6,USD millions
+U.K.,World,Dec 2023,Exports,615663.0,USD millions
+Viet Nam,Africa,31/12/2020,Exports,64315000.0,USD thousands
+Nigeria,Europe,Dec 2020,Exports,9365.6,USD millions
+Brazil,North America,2020-12-31,Exports,84564.2,USD millions
 South Africa,Asia-Pacific,31/12/2021,Exports,24435.4,USD millions
-germany,Europe,31/12/2019,Exports,399802.3,USD millions
+Japan,World,Dec 2022,Exports,"907,442.8",USD millions
+U.K.,Europe,2019,Exports,83799.0,USD millions
+Vietnam,South America,Dec 2023,Exports,109459.4,USD millions
+Nigeria,Asia-Pacific,Dec 2021,Exports,7972.3,USD millions
+Australia,North America,2022,Exports,103608.6,USD millions
+Nigeria,World,31/12/2022,Exports,"67,301.4",USD millions
+South Africa,Europe,2022-12-31,Exports,15948.9,USD millions
+Mexico,Africa,2021,Exports,30902.1,USD millions
+Germany,Asia-Pacific,31/12/2021,Exports,538142.4,USD millions
+germany,World,2020,Exports,"1,354,541.5",USD millions
+Vietnam,Europe,Dec 2023,Exports,103140.4,USD millions
+Mexico,South America,31/12/2022,Exports,154913.8,USD millions
+Japan,South America,2022,Exports,"203,809.4",USD millions
+South Africa,Africa,Dec 2021,Exports,16694.1,USD millions
+Canada,Asia-Pacific,2023,Exports,66877.1,USD millions
+India,Asia-Pacific,Dec 2023,Exports,89843.7,USD millions
+germany,World,2023,Exports,1871488.1,USD millions
+Nigeria,Africa,31/12/2022,Exports,10190.5,USD millions
+China,South America,31/12/2023,Exports,271860.1,USD millions
+South Africa,Europe,Dec 2019,Exports,9346.7,USD millions
+Viet Nam,Europe,2021-12-31,Exports,70641.9,USD millions
+United Kingdom,South America,31/12/2021,Exports,51389.3,USD millions
+Viet Nam,World,Dec 2023,Exports,377355.7,USD millions
+Kenya,Europe,2021-12-31,Exports,704.1,USD millions
+Canada,Asia-Pacific,2019,Exports,123914.6,USD millions
+Vietnam,Asia-Pacific,2019-12-31,Exports,57461.4,USD millions
+Japan,South America,Dec 2019,Exports,140234.8,USD millions
+Japan,Africa,2021,Exports,217363.4,USD millions
+India,Asia-Pacific,2019-12-31,Exports,102590.7,USD millions
+Mexico,Asia-Pacific,2020,Exports,34407.0,USD millions
+Mexico,Africa,Dec 2022,Exports,118211.3,USD millions
+Australia,Europe,31/12/2022,Exports,"92,478.8",USD millions
+germany,South America,2020,Exports,354517.2,USD millions
+Brazil,World,31/12/2021,Exports,345109.1,USD millions
+Nigeria,Africa,2023-12-31,Exports,"16,414.3",USD millions
+Kenya,World,2021,Exports,8356.0,USD millions
+Viet Nam,Africa,31/12/2021,Exports,26022.0,USD millions
+United Kingdom,World,2-31,Exports,"496,115.1",USD millions
+Australia,Africa,Dec 2021,Exports,104767.6,USD millions
+Viet Nam,Europe,2020,Exports,54968.3,USD millions
+Mexico,South America,31/12/2023,Exports,190185.5,USD millions
+Japan,Africa,2022,Exports,"207,513.1",USD millions
+Nigeria,South America,2019-12-31,Exports,10442.2,USD millions
+United States,World,Dec 2020,Exports,"1,851,588.3",USD millions
+U.S.,Europe,2022,Exports,584506.9,USD millions
+Kenya,Africa,31/12/2021,Exports,2454.0,USD millions
+Canada,South America,2019-12-31,Exports,132654.3,USD millions
+China,Europe,2022-12-31,Exports,236239.8,USD millions
+Japan,North America,Dec 2023,Exports,207865.9,USD millions
+UK,Africa,Dec 2020,Exports,115191.1,USD millions
+United Kingdom,South America,Dec 2019,Exports,147475.3,USD millions
+UK,North America,2019,Exports,51083.2,USD millions
+Australia,Africa,Dec 2022,Exports,85048.3,USD millions
+Vietnam,South America,2021-12-31,Exports,92578.9,USD millions
+Kenya,North America,2020-12-31,Exports,1134.0,USD millions
+Australia,World,Dec 2023,Exports,390217.0,USD millions
+Viet Nam,Europe,31/12/2022,Exports,104005.3,USD millions
 Federal Republic of Germany,Africa,31/12/2019,Exports,200623.5,USD millions
+U.K.,South America,2022,Exports,94284.3,USD millions
 Canada,South America,2021-12-31,Exports,161928.8,USD millions
 China,Africa,Dec 2019,Exports,620133.0,USD millions
 Canada,North America,31/12/2020,Exports,108058.0,USD millions
-Federal Republic of Germany,Europe,2023,Exports,500004.2,USD millions
-Mexico,North America,31/12/2022,Exports,-187486.8,USD millions
-South Africa,Europe,Dec 2021,Exports,13610.7,USD millions
+Germany,North America,2023-12-31,Exports,139039.1,USD millions
+Mexico,World,Dec 2023,Exports,600277.7,USD millions
+South Africa,South America,2021,Exports,23704.1,USD millions
+united states ,North America,2019,Exports,144085.4,USD millions
+China,Africa,31/12/2023,Exports,670711.6,USD millions
 India,North America,2022,Exports,62601.6,USD millions
-Nigeria,North America,2023,Exports,18228.1,USD millions
-Nigeria,Europe,2021-12-31,Exports,"20,379.9",USD millions
-Vietnam,South America,Dec 2022,Exports,109958.0,USD millions
+Vietnam,North America,Dec 2023,Exports,105975.5,USD millions
+China,Asia-Pacific,31/12/2023,Exports,960758.7,USD millions
 Australia,Africa,31/12/2023,Exports,76050.3,USD millions
-Mexico,South America,2021,Exports,142689.5,USD millions
+Germany,World,31/12/2021,Exports,1753406.5,USD millions
 Brazil,Asia-Pacific,Dec 2023,Exports,,USD millions
-India,South America,2021-12-31,Exports,151210.7,USD millions
-Kenya,Asia-Pacific,Dec 2022,Exports,2610.0,USD millions
-USA,Africa,2020-12-31,Exports,"186,778.9",USD millions
+germany,South America,2019,Exports,267053.0,USD millions
+united states ,North America,2023-12-31,Exports,528316.9,USD millions
+Japan,North America,2020-12-31,Exports,231943.3,USD millions
 China,North America,Dec 2022,Exports,1114920.7,USD millions
 Canada,Europe,31/12/2022,Exports,"182,536.5",USD millions
-United Kingdom,Asia-Pacific,31/12/2022,Exports,175921.2,USD millions
-Viet Nam,Africa,31/12/2020,Exports,64315000.0,USD thousands
-China,South America,Dec 2019,Exports,531480.6,USD millions
-united states ,Africa,2023-12-31,Exports,551157.0,USD millions
-Japan,Africa,2021,Exports,217363.4,USD millions
-Japan,North America,2020-12-31,Exports,231943.3,USD millions
-U.K.,World,Dec 2023,Exports,615663.0,USD millions
-South Africa,North America,2021,Exports,38415.8,USD millions
-India,World,2020-12-31,Exports,364813.8,USD millions
-Nigeria,Asia-Pacific,Dec 2021,Exports,7972.3,USD millions
-India,Asia-Pacific,Dec 2023,Exports,89843.7,USD millions
-Kenya,Africa,31/12/2021,Exports,2454.0,USD millions
-United Kingdom,Africa,Dec 2019,Exports,28926.8,USD millions
-Kenya,World,Dec 2020,Exports,"6,021.3",USD millions
-Viet Nam,South America,31/12/2019,Exports,"67,215.9",USD millions
-Kenya,Europe,2020,Exports,738.8,USD millions
 Japan,Asia-Pacific,31/12/2022,Exports,97836.2,USD millions
+Mexico,North America,31/12/2019,Exports,165455.7,USD millions
+South Africa,Europe,2023-12-31,Exports,31623.6,USD millions
+India,World,2020-12-31,Exports,364813.8,USD millions
+UK,Europe,31/12/2022,Exports,146673.6,USD millions
+India,Africa,2023-12-31,Exports,"98,795.9",USD millions
+South Africa,North America,2020,Exports,-10768.6,USD millions
+India,Asia-Pacific,31/12/2020,Exports,106945.2,USD millions
+Kenya,Asia-Pacific,2023,Exports,2599.7,USD millions
+India,Europe,2019-12-31,Exports,107273.0,USD millions
+Kenya,Asia-Pacific,Dec 2022,Exports,2610.0,USD millions
+UK,Europe,Dec 2020,Exports,133036.6,USD millions
+Kenya,Africa,2020,Exports,1537.4,USD millions
+Vietnam,Asia-Pacific,2020-12-31,Exports,94724.0,USD millions
+U.S.,World,2022-12-31,Exports,2321653.8,USD millions
+South Africa,South America,2020,Exports,27323.3,USD millions
 China,Europe,Dec 2019,Exports,759110.0,USD millions
 Australia,Asia-Pacific,Dec 2020,Exports,"61,555.3",USD millions
-UK,Europe,Dec 2020,Exports,133036.6,USD millions
-U.K.,Europe,2019,Exports,83799.0,USD millions
-UK,Europe,31/12/2022,Exports,146673.6,USD millions
+Kenya,North America,31/12/2023,Exports,2062.1,USD millions
+United Kingdom,Africa,Dec 2019,Exports,28926.8,USD millions
+South Africa,World,2021-12-31,Exports,"135,918.2",USD millions
 Australia,North America,2021,Exports,"63,215.8",USD millions
-Kenya,North America,2020-12-31,Exports,1134.0,USD millions
+India,Europe,Dec 2020,Exports,90558.3,USD millions
 Canada,Africa,2019,Exports,174288.0,USD millions
-Vietnam,World,Dec 2020,Exports,330186.1,USD millions
+U.K.,North America,2023,Exports,165104.8,USD millions
 Brazil,South America,2020-12-31,Exports,"70,481.9",USD millions
 Canada,Asia-Pacific,2020,Exports,63272.9,USD millions
-China,Africa,31/12/2023,Exports,670711.6,USD millions
-Viet Nam,Africa,31/12/2020,Exports,64315000.0,USD thousands
+Vietnam,Asia-Pacific,2022,Exports,118375.4,USD millions
+Vietnam,Asia-Pacific,Dec 2021,Exports,73979.9,USD millions
 Australia,Europe,Dec 2021,Exports,25835.6,USD millions
 Brazil,Europe,Dec 2020,Exports,34789.0,USD millions
-Mexico,Africa,2021,Exports,30902.1,USD millions
-united states ,North America,2023-12-31,Exports,528316.9,USD millions
-UK,North America,2019,Exports,51083.2,USD millions
+UK,Africa,2022-12-31,Exports,103584.4,USD millions
 Vietnam,World,Dec 2019,Exports,308932.3,USD millions
+South Africa,World,Dec 2019,Exports,"116,079.4",USD millions
+Viet Nam,North America,2019,Exports,106672.2,USD millions
 Australia,North America,2019-12-31,Exports,43876.9,USD millions
 China,World,31/12/2022,Exports,3746570.3,USD millions
 Canada,Europe,Dec 2021,Exports,71937.0,USD millions
 Germany,Africa,Dec 2021,Exports,443000.3,USD millions
-Nigeria,Asia-Pacific,31/12/2019,Exports,18516.7,USD millions
+China,Africa,31/12/2021,Exports,,USD millions
 Germany,Asia-Pacific,2023-12-31,Exports,625244.4,USD millions
-Mexico,North America,31/12/2019,Exports,165455.7,USD millions
+Nigeria,World,Dec 2023,Exports,62257.5,USD millions
 Federal Republic of Germany,Asia-Pacific,Dec 2019,Exports,392471.5,USD millions
 germany,South America,2022,Exports,483239.9,USD millions
 China,World,31/12/2019,Exports,3148230.7,USD millions
 Australia,South America,31/12/2023,Exports,"122,766.7",USD millions
-Kenya,Asia-Pacific,2019,Exports,1298.9,USD millions
+Kenya,World,Dec 2020,Exports,"6,021.3",USD millions
 India,Europe,2021-12-31,Exports,95783.8,USD millions
 germany,World,2022,Exports,"1,908,906.5",USD millions
 germany,Asia-Pacific,2020-12-31,Exports,202104.8,USD millions
-Viet Nam,Africa,31/12/2021,Exports,26022.0,USD millions
+Viet Nam,Africa,31/12/2020,Exports,64315000.0,USD thousands
 India,Africa,31/12/2021,Exports,65504.6,USD millions
 Brazil,North America,2019,Exports,101396.7,USD millions
-Viet Nam,Europe,2020,Exports,54968.3,USD millions
+united states ,World,2023-12-31,Exports,2179359.9,USD millions
 Canada,Africa,Dec 2023,Exports,125990.1,USD millions
-South Africa,South America,2020,Exports,27323.3,USD millions
+South Africa,North America,2021,Exports,38415.8,USD millions
 Canada,Asia-Pacific,Dec 2021,Exports,154921.7,USD millions
+Japan,World,2021-12-31,Exports,"805,689.9",USD millions
 India,North America,Dec 2020,Exports,"122,642.7",USD millions
-Viet Nam,Africa,2022-12-31,Exports,88123.8,USD millions
-Australia,Europe,2023,Exports,91237.3,USD millions
-Brazil,Europe,Dec 2023,Exports,"43,234.3",USD millions
-United Kingdom,South America,Dec 2019,Exports,147475.3,USD millions
-Nigeria,Africa,Dec 2020,Exports,,USD millions
+Viet Nam,Asia-Pacific,2023,Exports,79176.2,USD millions
+United Kingdom,Africa,2020,Exports,115191.1,USD millions
+Mexico,South America,2021,Exports,142689.5,USD millions
+U.K.,Asia-Pacific,Dec 2020,Exports,121222.1,USD millions
+United Kingdom,North America,Dec 2021,Exports,149427.9,USD millions
+U.K.,World,31/12/2020,Exports,431451.6,USD millions
 Japan,Asia-Pacific,31/12/2019,Exports,237061.3,USD millions
-South Africa,North America,Dec 2022,Exports,38507.1,USD millions
+united states ,Africa,2019,Exports,687220.7,USD millions
 Germany,Asia-Pacific,31/12/2022,Exports,"335,130.5",USD millions
-UK,World,2019-12-31,Exports,"496,115.1",USD millions
-U.S.,Europe,31/12/2020,Exports,212431.7,USD millions
+U.K.,South America,2023-12-31,Exports,186392.1,USD millions
+USA,Africa,2020-12-31,Exports,"186,778.9",USD millions
 germany,South America,2020,Exports,354517.2,USD millions
-Nigeria,Europe,2019-12-31,Exports,9344.3,USD millions
+Nigeria,Africa,31/12/2019,Exports,4851.0,USD millions
 India,South America,Dec 2023,Exports,24967.0,USD millions
 India,Africa,2019,Exports,66253.9,USD millions
-Nigeria,Asia-Pacific,31/12/2022,Exports,9461.8,USD millions
+United States,South America,2023-12-31,Exports,222038.7,USD millions
 Brazil,South America,31/12/2019,Exports,54041.4,USD millions
-Mexico,Africa,2020-12-31,Exports,61156.6,USD millions
-Nigeria,World,2021,Exports,68139.1,USD millions
+Mexico,Europe,2019-12-31,Exports,"124,938.3",USD millions
+united states ,North America,2021,Exports,193396.9,USD millions
 Canada,North America,Dec 2021,Exports,"134,154.0",USD millions
-U.K.,South America,2023-12-31,Exports,186392.1,USD millions
+South Africa,World,31/12/2023,Exports,135215.2,USD millions
 China,South America,31/12/2020,Exports,940714.0,USD millions
-South Africa,South America,2022,Exports,8049.6,USD millions
+South Africa,North America,Dec 2023,Exports,"11,316.6",USD millions
 Canada,North America,Dec 2019,Exports,73503.4,USD millions
 Japan,North America,2021-12-31,Exports,156040.2,USD millions
-Kenya,Europe,2021-12-31,Exports,704.1,USD millions
-Viet Nam,North America,2022,Exports,127185.0,USD millions
+United Kingdom,Asia-Pacific,Dec 2021,Exports,177999.0,USD millions
+Kenya,Europe,2020,Exports,738.8,USD millions
 China,South America,Dec 2021,Exports,599624.6,USD millions
 China,Asia-Pacific,2020-12-31,Exports,595519.2,USD millions
-Kenya,Africa,Dec 2023,Exports,"2,498.9",USD millions
+UK,World,2019-12-31,Exports,"496,115.1",USD millions
 Canada,Africa,2022,Exports,62243.6,USD millions
-UK,Africa,Dec 2020,Exports,115191.1,USD millions
+Nigeria,Asia-Pacific,2023-12-31,Exports,"5,660.5",USD millions
 India,North America,Dec 2019,Exports,79489.4,USD millions
-South Africa,World,Dec 2019,Exports,"116,079.4",USD millions
+South Africa,World,31/12/2020,Exports,108370.1,USD millions
 China,North America,31/12/2020,Exports,907170.1,USD millions
 Australia,Asia-Pacific,2023,Exports,30940.1,USD millions
-Vietnam,Europe,2019-12-31,Exports,43705.8,USD millions
+Vietnam,Africa,Dec 2019,Exports,97222.5,USD millions
 Japan,Africa,2023-12-31,Exports,216978.7,USD millions
 Japan,Europe,2020,Exports,90581.0,USD millions
 Brazil,Asia-Pacific,Dec 2021,Exports,43433.9,USD millions
-Kenya,South America,Dec 2022,Exports,2642.1,USD millions
-U.S.,South America,Dec 2020,Exports,187525.1,USD millions
-U.K.,Asia-Pacific,Dec 2020,Exports,121222.1,USD millions
+Australia,Europe,2023,Exports,91237.3,USD millions
+U.S.,Asia-Pacific,2021-12-31,Exports,119477.4,USD millions
+United Kingdom,South America,31/12/2020,Exports,164531.3,USD millions
 Japan,Europe,2022-12-31,Exports,222314.6,USD millions
-Mexico,South America,31/12/2022,Exports,154913.8,USD millions
-U.K.,South America,2022,Exports,94284.3,USD millions
-Nigeria,North America,2019-12-31,Exports,9957.2,USD millions
-Mexico,Asia-Pacific,2020,Exports,34407.0,USD millions
-United States,World,31/12/2019,Exports,1790755.6,USD millions
+Mexico,Asia-Pacific,2023-12-31,Exports,39140.2,USD millions
+UK,Asia-Pacific,Dec 2023,Exports,"123,229.5",USD millions
+Nigeria,World,Dec 2020,Exports,"54,145.6",USD millions
+Nigeria,World,31/12/2019,Exports,"50,622.6",USD millions
+Mexico,North America,31/12/2022,Exports,-187486.8,USD millions
 Federal Republic of Germany,North America,2022,Exports,416999.8,USD millions
 Australia,World,2021-12-31,Exports,361410.5,USD millions
 Japan,Asia-Pacific,2020,Exports,52133.2,USD millions
 germany,North America,31/12/2021,Exports,548359.5,USD millions
-Nigeria,World,Dec 2020,Exports,"54,145.6",USD millions
-U.S.,Europe,2021,Exports,,USD millions
+Nigeria,North America,2020-12-31,Exports,11462.7,USD millions
+India,Europe,2019-12-31,Exports,107273.0,USD millions
 Brazil,Africa,2019,Exports,21721.4,USD millions
 Germany,North America,2020,Exports,479120.2,USD millions
-USA,North America,2022,Exports,661167.2,USD millions
-South Africa,Europe,2022-12-31,Exports,15948.9,USD millions
+Mexico,Africa,2020-12-31,Exports,61156.6,USD millions
+South Africa,South America,2022,Exports,8049.6,USD millions
 China,North America,2023-12-31,Exports,542870.9,USD millions
 China,Europe,Dec 2023,Exports,393550.3,USD millions
-U.K.,World,31/12/2020,Exports,431451.6,USD millions
-U.S.,Asia-Pacific,2021-12-31,Exports,119477.4,USD millions
+United Kingdom,North America,2020-12-31,Exports,44117.6,USD millions
+U.S.,South America,Dec 2020,Exports,187525.1,USD millions
 Brazil,Europe,2019,Exports,16347.9,USD millions
 India,World,2019-12-31,Exports,"369,006.8",USD millions
 India,Africa,2022-12-31,Exports,108324.8,USD millions
 Kenya,Africa,2019,Exports,1167.7,USD millions
 India,World,2021,Exports,445226.8,USD millions
 Kenya,North America,31/12/2023,Exports,2062.1,USD millions
-Australia,South America,2020,Exports,49822.4,USD millions
-China,Africa,31/12/2021,Exports,,USD millions
-Viet Nam,Asia-Pacific,2023,Exports,79176.2,USD millions
-Nigeria,Africa,31/12/2021,Exports,13791.9,USD millions
-Vietnam,North America,31/12/2020,Exports,29075.5,USD millions
+Nigeria,Asia-Pacific,31/12/2019,Exports,18516.7,USD millions
+Kenya,Asia-Pacific,2019,Exports,1298.9,USD millions
+Brazil,Europe,Dec 2023,Exports,"43,234.3",USD millions
+South Africa,Europe,31/12/2020,Exports,16850.0,USD millions
 China,Europe,31/12/2020,Exports,179800.6,USD millions
 Kenya,World,Dec 2023,Exports,8646.5,USD millions
 China,Asia-Pacific,Dec 2022,Exports,288085.6,USD millions
@@ -263,43 +266,43 @@ Canada,Europe,31/12/2019,Exports,149807.5,USD millions
 China,World,Dec 2020,Exports,2822532.4,USD millions
 China,Africa,2020,Exports,535850.3,USD millions
 germany,Africa,Dec 2020,Exports,"158,481.1",USD millions
-Nigeria,World,31/12/2019,Exports,"50,622.6",USD millions
+Nigeria,North America,2019-12-31,Exports,9957.2,USD millions
 Japan,South America,31/12/2023,Exports,121161.5,USD millions
 Canada,South America,Dec 2020,Exports,50535.1,USD millions
 Mexico,World,2021,Exports,n/a,USD millions
-U.K.,North America,2023,Exports,165104.8,USD millions
-Vietnam,Asia-Pacific,2019-12-31,Exports,57461.4,USD millions
+United States,World,31/12/2019,Exports,1790755.6,USD millions
+Viet Nam,South America,31/12/2019,Exports,"67,215.9",USD millions
 Brazil,World,2023,Exports,"314,718.9",USD millions
 Japan,South America,2020,Exports,161737.8,USD millions
-U.S.,World,2022-12-31,Exports,2321653.8,USD millions
+USA,North America,2022,Exports,661167.2,USD millions
 Federal Republic of Germany,South America,2023,Exports,361658.2,USD millions
 Japan,Europe,31/12/2019,Exports,229095.6,USD millions
-Nigeria,World,31/12/2022,Exports,"67,301.4",USD millions
+Viet Nam,Africa,2022-12-31,Exports,88123.8,USD millions
 Australia,Europe,2019-12-31,Exports,,USD millions
 China,South America,Dec 2022,Exports,"1,369,975.8",USD millions
 Brazil,Europe,31/12/2022,Exports,24830.3,USD millions
-South Africa,North America,2020,Exports,-10768.6,USD millions
+South Africa,Europe,Dec 2021,Exports,13610.7,USD millions
 Kenya,North America,2022,Exports,1769.0,USD millions
-South Africa,South America,Dec 2023,Exports,44844.7,USD millions
+Nigeria,Asia-Pacific,31/12/2022,Exports,9461.8,USD millions
 Mexico,Asia-Pacific,2019-12-31,Exports,63050.6,USD millions
-UK,Africa,2022-12-31,Exports,103584.4,USD millions
+U.K.,Europe,Dec 2023,Exports,201361.9,USD millions
 Kenya,Africa,31/12/2022,Exports,2433.2,USD millions
-South Africa,Africa,Dec 2021,Exports,16694.1,USD millions
-united states ,Africa,2019,Exports,687220.7,USD millions
+U.K.,North America,Dec 2022,Exports,202612.7,USD millions
+U.S.,Europe,31/12/2020,Exports,212431.7,USD millions
 Japan,World,2020,Exports,"623,441.4",USD millions
 India,World,31/12/2023,Exports,481270.3,USD millions
-South Africa,World,31/12/2020,Exports,108370.1,USD millions
+South Africa,Africa,2020,Exports,26966.1,USD millions
 China,North America,2021,Exports,"667,393.7",USD millions
 Nigeria,South America,Dec 2021,Exports,20624.8,USD millions
 Mexico,Asia-Pacific,Dec 2022,Exports,167179.9,USD millions
 India,South America,2019-12-31,Exports,"132,738.6",USD millions
 Brazil,Africa,Dec 2021,Exports,-46171.1,USD millions
 Australia,World,31/12/2019,Exports,287547.1,USD millions
-United Kingdom,South America,31/12/2021,Exports,51389.3,USD millions
-United States,World,Dec 2020,Exports,"1,851,588.3",USD millions
+United Kingdom,Asia-Pacific,31/12/2022,Exports,175921.2,USD millions
+U.S.,Europe,2021,Exports,,USD millions
 Australia,World,2022-12-31,Exports,"396,233.8",USD millions
 Kenya,Europe,31/12/2019,Exports,1537.9,USD millions
-United Kingdom,North America,Dec 2021,Exports,149427.9,USD millions
+germany,North America,31/12/2021,Exports,548359.5,USD millions
 Brazil,Africa,31/12/2022,Exports,26918.6,USD millions
 Australia,North America,Dec 2020,Exports,65765.2,USD millions
 Mexico,Asia-Pacific,Dec 2021,Exports,,USD millions
@@ -317,7 +320,7 @@ Germany,World,31/12/2019,Exports,,USD millions
 Japan,Asia-Pacific,Dec 2023,Exports,75969.1,USD millions
 Japan,Europe,2021,Exports,105851.1,USD millions
 Nigeria,South America,2020-12-31,Exports,13349.9,USD millions
-United States,Africa,31/12/2022,Exports,,USD millions
+USA,Europe,Dec 2023,Exports,451983.3,USD millions
 Mexico,Europe,Dec 2022,Exports,51954.0,USD millions
 Australia,Europe,2023,Exports,91237.3,USD millions
 Federal Republic of Germany,Africa,31/12/2022,Exports,198415.7,USD millions
@@ -334,18 +337,18 @@ Canada,Asia-Pacific,31/12/2022,Exports,165677.7,USD millions
 U.K.,South America,2023-12-31,Exports,186392.1,USD millions
 Australia,South America,2019,Exports,83629.8,USD millions
 Australia,North America,Dec 2023,Exports,115321.0,USD millions
-Vietnam,Europe,Dec 2023,Exports,103140.4,USD millions
+South Africa,World,2022,Exports,150774.8,USD millions
 Nigeria,North America,2021,Exports,"17,578.2",USD millions
 Canada,Africa,Dec 2021,Exports,n/a,USD millions
-South Africa,Africa,2019,Exports,22260.4,USD millions
+South Africa,Asia-Pacific,Dec 2020,Exports,28287.4,USD millions
 United Kingdom,Africa,Dec 2023,Exports,163009.5,USD millions
-South Africa,Africa,2022-12-31,Exports,33598.0,USD millions
+United Kingdom,Europe,2020,Exports,133036.6,USD millions
 India,North America,31/12/2023,Exports,88840.9,USD millions
 Mexico,World,2020,Exports,,USD millions
 germany,Europe,31/12/2020,Exports,236551.1,USD millions
 United States,Asia-Pacific,Dec 2020,Exports,161837.6,USD millions
 Kenya,South America,31/12/2020,Exports,1876.6,USD millions
-South Africa,North America,Dec 2023,Exports,"11,316.6",USD millions
+Brazil,North America,Dec 2022,Exports,71102.1,USD millions
 United Kingdom,Africa,2021,Exports,119609.5,USD millions
 Mexico,North America,2023,Exports,221725.5,USD millions
 Mexico,Europe,2023-12-31,Exports,58390.8,USD millions
@@ -355,27 +358,28 @@ China,World,31/12/2023,Exports,3948611.1,USD millions
 Nigeria,Europe,31/12/2022,Exports,18402.7,USD millions
 Nigeria,Europe,31/12/2023,Exports,"7,350.8",USD millions
 Mexico,Africa,Dec 2023,Exports,44701.7,USD millions
-Vietnam,South America,2021-12-31,Exports,92578.9,USD millions
+Viet Nam,North America,2022,Exports,127185.0,USD millions
 Australia,World,2020,Exports,,USD millions
-Brazil,North America,Dec 2022,Exports,71102.1,USD millions
+Kenya,South America,Dec 2022,Exports,2642.1,USD millions
 USA,South America,31/12/2019,Exports,325201.6,USD millions
 Germany,Europe,2021,Exports,401032.0,USD millions
 Brazil,Asia-Pacific,2019-12-31,Exports,61419.1,USD millions
-South Africa,Europe,2023-12-31,Exports,31623.6,USD millions
+South Africa,South America,Dec 2023,Exports,44844.7,USD millions
 Kenya,North America,31/12/2021,Exports,1122.1,USD millions
 Kenya,World,2019,Exports,6598.3,USD millions
-Kenya,North America,31/12/2023,Exports,2062.1,USD millions
+South Africa,Asia-Pacific,2019,Exports,12266.2,USD millions
 Mexico,North America,Dec 2020,Exports,90503.1,USD millions
-Viet Nam,Europe,31/12/2022,Exports,104005.3,USD millions
+Vietnam,South America,Dec 2022,Exports,109958.0,USD millions
 Canada,World,31/12/2020,Exports,440486.1,USD millions
+Viet Nam,World,Dec 2021,Exports,371022.0,USD millions
 united states ,Asia-Pacific,2022,Exports,552249.0,USD millions
 Australia,Asia-Pacific,2021,Exports,26194.6,USD millions
 UK,Europe,Dec 2021,Exports,182899.7,USD millions
-South Africa,World,2022,Exports,150774.8,USD millions
+South Africa,Africa,2022-12-31,Exports,33598.0,USD millions
 Japan,Asia-Pacific,Dec 2021,Exports,160918.8,USD millions
 U.K.,World,2021-12-31,Exports,520309.3,USD millions
 China,Asia-Pacific,2019,Exports,688213.5,USD millions
-South Africa,South America,2021,Exports,23704.1,USD millions
+South Africa,North America,Dec 2022,Exports,38507.1,USD millions
 United States,South America,Dec 2021,Exports,341270.2,USD millions
 Nigeria,North America,31/12/2022,Exports,13946.5,USD millions
 Mexico,Europe,2020,Exports,57278.4,USD millions

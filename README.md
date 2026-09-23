@@ -53,3 +53,4 @@ public data from the World Bank and published statistics web pages.
 ### Day 2: Data Extraction and Preparation
 - [Module 05: Acquiring Data from External Sources](labs/05-acquiring-data-from-apis/README.md)
 - [Module 06: Collecting Data from Web Sources](labs/06-collecting-data-from-web-sources/README.md)
+- [Module 07: Data Cleaning and Transformation](labs/07-data-cleaning-and-transformation/README.md)
