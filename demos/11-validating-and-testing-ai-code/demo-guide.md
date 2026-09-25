@@ -3,13 +3,21 @@
 **Duration:** 12 minutes
 **Prerequisite:** VS Code open at `demos/11-validating-and-testing-ai-code/`, a terminal in that folder with `.venv` active, and `pytest` installed (`pip install pytest`, already in `requirements.txt`). Your preferred AI assistant open.
 
-## Part 1: Review before running (3 min)
-Open `ai_generated_growth.py`. Read `yoy_growth` aloud. Ask: "Does this look right?" Most people say yes.
-Run it:
+## Part 1: Spot the problem (4 min)
+Open `ai_generated_growth.py` and read `yoy_growth` aloud. Ask: "Does this look right?" Most people say yes.
+Run it on a tiny table where we know the answers:
 ```bash
-python ai_generated_growth.py
+python spot_the_problem.py
 ```
-Scroll to the row where the reporter changes. The first year of the second reporter has a growth value when it should be blank: `pct_change()` compared it with the **previous reporter's** last year.
+- Ask the room to check each growth value. Ghana 2023 (-2.9%) and Kenya 2023 (-6.8%) are right.
+- Kenya 2022 shows **-52.7%**. It is Kenya's first year, so it should be blank (NaN), like Ghana 2022.
+- Ask: "Where did -52.7% come from?" It is Kenya 2022 (7,950) compared with **Ghana 2023** (16,800).
+- Explain: `pct_change()` compares each **row** with the row above. It knows nothing about reporters, so the first row of each new country is compared with the last row of the previous one.
+- Show the fix and its output:
+```bash
+python spot_the_problem.py --fixed
+```
+- "On our full dataset of 14 reporters there would be 13 invented growth rates, with no error and no warning."
 
 ## Part 2: A test makes the bug undeniable (4 min)
 Open `test_ai_generated_growth.py`. Explain the fixture: "a tiny table where we know the answers by hand."
