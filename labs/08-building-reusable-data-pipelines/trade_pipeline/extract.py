@@ -24,11 +24,11 @@ def read_countries(path=config.COUNTRIES_FILE):
 
 def fetch_wb_indicator(code, iso3_codes, start, end, cache_file, offline=False):
     """Return World Bank records for one indicator, falling back to the cache."""
-    # TODO: If not offline, request the indicator from the World Bank API (see Module 05):
-    #   build the URL and params, use config.TIMEOUT_SECONDS, call raise_for_status(),
-    #   check the payload contains data, log how many records, and return payload[1].
-    # On requests.RequestException or ValueError, log a warning and fall through.
-    # Otherwise (or on failure) load and return records from config.CACHE / cache_file.
+    # TODO STEP 10: if not offline, request the indicator from the World Bank API
+    # (Module 05): URL, params with per_page 1000, timeout, raise_for_status(),
+    # check the payload has data; return payload[1]. On
+    # requests.RequestException or ValueError log a warning and fall through.
+    # Finally load and return the records from config.CACHE / cache_file.
     raise NotImplementedError
 
 

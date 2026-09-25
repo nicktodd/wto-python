@@ -24,22 +24,53 @@ def to_number(series):
     return pd.to_numeric(text, errors="coerce")
 
 
-def clean_trade(raw):
-    # TODO: Apply the Module 07 cleaning steps, logging each one with a row count:
-    #   1. lower-case/strip column names; strip text values
-    #   2. map reporter names with config.NAME_MAP
-    #   3. convert value with to_number(); convert USD thousands to USD millions
-    #   4. make negative values positive (or set to missing) and log it
-    #   5. derive an int year column with parse_year(); drop unparseable rows
-    #   6. drop duplicate (reporter, partner, year) keys, keeping non-missing values
-    #   7. add a value_missing flag
-    # Return the frame without 'period', with 'value' renamed to 'exports_usd_m'.
+def standardise_text(df):
+    """Lower-case the column names, strip spaces from every value, map reporter variants."""
+    # TODO STEP 2: copy df; lower-case and strip the column names;
+    # strip every text column (df[col].str.strip()); map df["reporter"]
+    # with config.NAME_MAP. Return df.  (Module 07, Part B)
     raise NotImplementedError
 
 
+def convert_values(df):
+    """Make value numeric and in USD millions; make negative values positive."""
+    # TODO STEP 3: copy df; df["value"] = to_number(df["value"]);
+    # divide USD thousands rows by 1000 and set their unit to USD millions;
+    # make negative values positive with .abs(). Log each step with a count.
+    # (Module 07, Part C)
+    raise NotImplementedError
+
+
+def add_year(df):
+    """Add an int year column parsed from period; drop rows that cannot be parsed."""
+    # TODO STEP 4: copy df; df["year"] = df["period"].map(parse_year);
+    # drop rows where year is missing (log a warning if any); convert year to int.
+    raise NotImplementedError
+
+
+def remove_duplicates(df):
+    """Keep one row per (reporter, partner, year), preferring rows that have a value."""
+    # TODO STEP 5: sort by value with na_position="last", then
+    # drop_duplicates(["reporter", "partner", "year"], keep="first").
+    # Log how many rows were removed.
+    raise NotImplementedError
+
+
+def clean_trade(raw):
+    """Run every cleaning step in order and return the analysis-ready table."""
+    df = standardise_text(raw)
+    df = convert_values(df)
+    df = add_year(df)
+    df = remove_duplicates(df)
+    df["value_missing"] = df["value"].isna()
+    log.info("%d rows have missing values (flagged)", df["value_missing"].sum())
+    return df.drop(columns=["period"]).rename(columns={"value": "exports_usd_m"})
+
+
 def add_reference_data(df, countries):
-    # TODO: Left-merge iso3, region and income_group from countries on reporter/country_name
-    # with validate='many_to_one'. Raise ValueError listing any unmatched reporters.
+    # TODO STEP 6: left-merge countries[["iso3", "country_name", "region", "income_group"]]
+    # on reporter / country_name with validate="many_to_one"; drop country_name.
+    # Raise ValueError listing any reporters with no iso3.
     raise NotImplementedError
 
 
@@ -54,13 +85,15 @@ def add_indicators(df, wb):
 
 def validate(df):
     """Return a list of problems; an empty list means the data is ready."""
-    # TODO: Return a list of problems (empty list = OK). Check: required columns exist,
-    # no negative exports_usd_m, no missing iso3, no duplicate (iso3, partner, year),
-    # years within config.START_YEAR..config.END_YEAR, unit is always 'USD millions'.
+    # TODO STEP 7: return a list of problems (empty = OK). If a required column is
+    # missing return ["missing columns: ..."]. Otherwise check: "negative values",
+    # "unmatched reporters" (iso3 missing), "duplicate keys" (iso3, partner, year),
+    # "years out of range" (config.START_YEAR..END_YEAR), "mixed units".
     raise NotImplementedError
 
 
 def summarise(df):
     """Reporting table: World exports by region and year, USD billions."""
-    # TODO: Return World exports by region (rows) and year (columns) in USD billions, 1 dp.
+    # TODO STEP 8: keep partner == "World"; pivot_table with index region, columns year,
+    # values exports_usd_m, aggfunc sum; divide by 1000 and round to 1 dp.
     raise NotImplementedError

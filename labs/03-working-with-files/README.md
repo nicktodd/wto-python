@@ -1,7 +1,7 @@
 # Lab 03: Load and Investigate Multiple Datasets
 
-**Duration:** 45 minutes
-**Type:** Notebook code exercise
+**Duration:** 45 to 60 minutes
+**Type:** Notebook code exercise, built up in small steps
 
 ## Objectives
 - Navigate folders with `pathlib`
@@ -17,20 +17,23 @@ Excel support needs `openpyxl`. It is in `requirements.txt`; if you get an `Impo
 pip install openpyxl
 ```
 
-## Steps
-1. Open `labs/03-working-with-files/load_datasets.ipynb`.
-2. Task 1: list the files in `data/` with their sizes.
-3. Task 2: read `trade_summary.csv` with `csv.DictReader` and total the 2023 exports.
-4. Task 3: load all three datasets with pandas and inspect shape and `dtypes`.
-5. Task 4: write `load_dataset()` using `try/except`, and load a list of files that includes a missing file and an unsupported file.
-6. Task 5: count missing values in each dataset and note which has gaps.
-7. Task 6: filter the Africa region for 2023 and write CSV, Excel and a text report to `output/`.
+## How this lab works
+Open `labs/03-working-with-files/load_datasets.ipynb`. Each step introduces one idea, shows an **Example** of the pattern, and has a **check** cell that prints `OK`. Some cells are marked *Run this cell; no changes needed*: they show you something new before you use it.
+
+| Part | You will practise | Steps |
+|---|---|---|
+| A | Finding files and their sizes with `pathlib` | A1 to A3 |
+| B | Reading a CSV with the `csv` module; counting and totalling in a loop | B1 to B4 |
+| C | Reading CSVs with pandas; column types | C1 to C4 |
+| D | Reading an Excel workbook and choosing a sheet | D1 to D2 |
+| E | `try` / `except`, a safe loader for CSV and Excel, loading a list of files | E1 to E5 |
+| F | Creating an output folder; writing CSV, Excel and a text report | F1 to F4 |
 
 ## Hints
-- `row["year"]` from `csv.DictReader` is the string `"2023"`, not the number `2023`.
-- Filtering a DataFrame on two conditions: `trade[(trade["region"] == "Africa") & (trade["year"] == 2023)]`. We cover this properly in Module 04.
-- `Path.suffix` gives the extension, for example `".csv"`.
+- A `row["year"]` from `csv.DictReader` is the **text** `"2023"`, not the number `2023`.
+- `Path.suffix` gives a file's extension, for example `".csv"`.
+- `write()` does not add a newline: end each line with `\n`.
 
 ## Acceptance criteria
-- All check cells print `OK`
+- Every check cell prints `OK`
 - `output/` contains `africa_2023.csv`, `africa_2023.xlsx` and `load_report.txt`

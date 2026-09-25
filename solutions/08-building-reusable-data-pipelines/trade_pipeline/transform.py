@@ -24,13 +24,19 @@ def to_number(series):
     return pd.to_numeric(text, errors="coerce")
 
 
-def clean_trade(raw):
-    df = raw.copy()
+def standardise_text(df):
+    """Lower-case the column names, strip spaces from every value, map reporter variants."""
+    df = df.copy()
     df.columns = df.columns.str.strip().str.lower()
     for col in df.columns:
         df[col] = df[col].str.strip()
-
     df["reporter"] = df["reporter"].replace(config.NAME_MAP)
+    return df
+
+
+def convert_values(df):
+    """Make value numeric and in USD millions; make negative values positive."""
+    df = df.copy()
     df["value"] = to_number(df["value"])
 
     thousands = df["unit"] == "USD thousands"
@@ -40,20 +46,38 @@ def clean_trade(raw):
 
     negative = df["value"] < 0
     df.loc[negative, "value"] = df.loc[negative, "value"].abs()
-    log.warning("Made %d negative values positive (sign errors)", negative.sum())
+    if negative.any():
+        log.warning("Made %d negative values positive (sign errors)", negative.sum())
+    return df
 
+
+def add_year(df):
+    """Add an int year column parsed from period; drop rows that cannot be parsed."""
+    df = df.copy()
     df["year"] = df["period"].map(parse_year)
     unparsed = df["year"].isna().sum()
     if unparsed:
         log.warning("Dropping %d rows with unparseable periods", unparsed)
         df = df.dropna(subset=["year"])
     df["year"] = df["year"].astype(int)
+    return df
 
+
+def remove_duplicates(df):
+    """Keep one row per (reporter, partner, year), preferring rows that have a value."""
     before = len(df)
     df = (df.sort_values("value", na_position="last")
             .drop_duplicates(["reporter", "partner", "year"], keep="first"))
     log.info("Removed %d duplicate rows", before - len(df))
+    return df
 
+
+def clean_trade(raw):
+    """Run every cleaning step in order and return the analysis-ready table."""
+    df = standardise_text(raw)
+    df = convert_values(df)
+    df = add_year(df)
+    df = remove_duplicates(df)
     df["value_missing"] = df["value"].isna()
     log.info("%d rows have missing values (flagged)", df["value_missing"].sum())
     return df.drop(columns=["period"]).rename(columns={"value": "exports_usd_m"})

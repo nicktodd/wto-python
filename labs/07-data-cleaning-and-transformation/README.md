@@ -1,37 +1,39 @@
 # Lab 07: Prepare Raw Data for Analysis
 
-**Duration:** 75 minutes
-**Type:** Notebook code exercise
+**Duration:** 75 to 90 minutes
+**Type:** Notebook code exercise, built up in small steps
 
 ## Objectives
 - Profile a raw dataset and list its quality problems
-- Standardise text, names, numbers, units and dates
-- Handle missing values and duplicates deliberately
+- Standardise names, numbers, units and dates
+- Handle duplicates and missing values deliberately
 - Combine datasets with safe merges
 - Validate the result and keep a cleaning log
 
 ## Data
 - `data/trade_raw_2019_2023.csv`: illustrative exports by reporter and partner region, with deliberate quality problems
-- `data/countries.xlsx`: reference country list with ISO3 codes, region and income group
-- `data/wb_indicators_2015_2023.csv`: **real** World Bank GDP (Gross Domestic Product) and exports-to-GDP data (CC BY 4.0), built from the Module 05 API responses
+- `data/countries.xlsx`: reference country list with ISO3 codes and income groups
+- `data/wb_indicators_2015_2023.csv`: **real** World Bank GDP data (CC BY 4.0), built from the Module 05 API responses
 
-## Steps
-1. Open `labs/07-data-cleaning-and-transformation/prepare_raw_data.ipynb`.
-2. Task 1: profile the raw data and list every problem **before** fixing anything.
-3. Task 2: standardise column names, whitespace and reporter names.
-4. Task 3: convert values to numbers, standardise units and deal with negatives.
-5. Task 4: parse four date formats into a `year` column.
-6. Task 5: remove duplicates (exact and by key) and flag missing values.
-7. Task 6: merge the country reference data and real World Bank GDP.
-8. Task 7: write `validate()`, then save `output/trade_clean.csv` and `output/cleaning_log.txt`.
+## How this lab works
+Open `labs/07-data-cleaning-and-transformation/prepare_raw_data.ipynb`. Each step fixes **one** problem, shows an **Example** where useful, adds a line to your cleaning `log`, and has a **check** cell that prints `OK`.
+
+| Part | You will practise | Steps |
+|---|---|---|
+| A | Profiling: types, spellings, duplicates; listing the problems | A1 to A4 |
+| B | Column names, stripping spaces, finding and mapping name variants | B1 to B4 |
+| C | Text to numbers, thousands to millions, negative values | C1 to C4 |
+| D | Parsing four date formats into a year | D1 to D3 |
+| E | Exact duplicates, duplicate keys, keeping one per key, flagging missing values | E1 to E4 |
+| F | Merging reference data and real GDP data | F1 to F2 |
+| G | A validation function; saving the data and the log | G1 to G2 |
 
 ## Hints
-- `df.select_dtypes("object")` selects the text columns.
-- `pd.to_numeric(series, errors="coerce")` turns unparseable text into `NaN`.
-- `merge(..., validate="many_to_one")` raises an error if the right-hand key is not unique.
-- Some duplicates only appear **after** you clean names and dates. Think about why.
+- `pd.to_numeric(series, errors="coerce")` turns unconvertible text into `NaN`.
+- `df.loc[mask, "column"] = value` changes only the rows where `mask` is True.
+- Some duplicates only appear **after** you clean names and dates. E2 asks you why.
 
 ## Acceptance criteria
-- All check cells print `OK`
+- Every check cell prints `OK`
 - `validate(df)` returns an empty list
-- The cleaning log records each change with a row count
+- `output/trade_clean.csv` and `output/cleaning_log.txt` exist

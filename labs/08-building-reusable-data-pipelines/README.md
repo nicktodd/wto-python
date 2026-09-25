@@ -1,12 +1,11 @@
 # Lab 08: Create an End-to-End Extraction and Transformation Workflow
 
 **Duration:** 90 minutes (this lab is also the Day 2 consolidation exercise)
-**Type:** Python package code exercise (VS Code or any editor, plus a terminal)
+**Type:** Python package exercise, built up one function at a time (VS Code or any editor, plus a terminal)
 
 ## Objectives
 - Structure a pipeline as a small Python package with one module per step
-- Extract data from a public source (World Bank API) with a cache fallback
-- Clean and transform the raw trade data, and merge multiple datasets
+- Reuse your Module 05 and Module 07 code as small, testable functions
 - Add logging, validation and command-line options
 - Produce a reporting-ready dataset with metadata
 
@@ -14,17 +13,41 @@
 
 ```
 trade_pipeline/
-  config.py        settings: paths, indicators, name map (complete)
-  extract.py       read files; call the World Bank API (TODO: fetch_wb_indicator)
-  transform.py     clean, merge, validate, summarise (TODO: 4 functions)
-  load.py          write CSV, Excel and metadata (TODO: write_outputs)
-  run_pipeline.py  logging, arguments, orchestration (TODO: 2 functions)
+  config.py        settings: paths, indicators, name map          (complete: read it first)
+  extract.py       read files; call the World Bank API            (STEP 10)
+  transform.py     clean, merge, validate, summarise              (STEPS 2 to 8)
+  load.py          write CSV, Excel and metadata                   (STEP 9)
+  run_pipeline.py  arguments, logging, runs everything in order    (STEP 1)
+test_steps.py      one group of tests per step
 ```
 
-Search for `TODO` in each file. Each has comments describing exactly what to implement. Reuse your Module 05 and Module 07 code.
+Each function you need to write contains a `# TODO STEP n` comment describing exactly what to do. Functions that are already complete (for example `clean_trade()`, which calls your step 2 to 5 functions in order) show you how the pieces fit together.
 
-## Running the pipeline
-Open a terminal in `labs/08-building-reusable-data-pipelines/` (the folder that **contains** `trade_pipeline/`) with your virtual environment active:
+## How to work
+Open a terminal in `labs/08-building-reusable-data-pipelines/` (the folder that **contains** `trade_pipeline/`) with your virtual environment active. For each step:
+
+1. Open the file, find `TODO STEP n`, and replace `raise NotImplementedError` with your code.
+2. Run that step's tests:
+   ```bash
+   pytest test_steps.py -k step01 -v
+   ```
+3. When they pass, move to the next step.
+
+| Step | File: function | What it does | Reuses |
+|---|---|---|---|
+| 1 | `run_pipeline.py`: `parse_args`, `setup_logging` | Command-line options; log to console and file | Module 08 slides |
+| 2 | `transform.py`: `standardise_text` | Column names, stripping, name map | Lab 07 Part B |
+| 3 | `transform.py`: `convert_values` | Numbers, units, negatives | Lab 07 Part C |
+| 4 | `transform.py`: `add_year` | Parse four date formats | Lab 07 Part D |
+| 5 | `transform.py`: `remove_duplicates` | One row per key | Lab 07 Part E |
+| 6 | `transform.py`: `add_reference_data` | ISO3, region, income group | Lab 07 Part F |
+| 7 | `transform.py`: `validate` | List of problems | Lab 07 Part G |
+| 8 | `transform.py`: `summarise` | Exports by region, USD bn | Lab 04 Part F |
+| 9 | `load.py`: `write_outputs` | CSV, Excel, metadata.json | Labs 03 and 05 |
+| 10 | `extract.py`: `fetch_wb_indicator` | API with cache fallback | Lab 05 Parts D and E |
+
+## Run the whole pipeline
+After step 9 you can run it offline; after step 10, live:
 
 ```bash
 python -m trade_pipeline.run_pipeline --offline --verbose
@@ -32,24 +55,15 @@ python -m trade_pipeline.run_pipeline
 python -m trade_pipeline.run_pipeline --help
 ```
 
-`-m` runs the package as a module so the relative imports (`from . import config`) work.
-
-## Suggested order
-1. Read `config.py` and `run_pipeline.py::run()` to understand the flow.
-2. Implement `setup_logging()` and `parse_args()` so you can see log output.
-3. Implement `transform.clean_trade()` and `add_reference_data()`; run with `--offline`. Each `NotImplementedError` shows you the next function to write.
-4. Implement `validate()` and `summarise()`.
-5. Implement `load.write_outputs()`.
-6. Implement `extract.fetch_wb_indicator()` and run **without** `--offline` to use the live API.
+`-m` runs the package as a module so its internal imports (`from . import config`) work.
 
 ## Acceptance criteria
-- `python -m trade_pipeline.run_pipeline --offline` exits without errors
-- `trade_pipeline/output/` contains `trade_reporting.csv`, `trade_reporting.xlsx` (sheets `data`, `exports_by_region_bn`, `metadata`), `metadata.json` and `pipeline.log`
-- The log records every cleaning step with a row count
-- The dataset has 420 rows (14 reporters x 6 partners x 5 years) and passes `validate()`
+- `pytest test_steps.py -v` passes (18 tests)
+- `python -m trade_pipeline.run_pipeline --offline` finishes with `Validation passed: 420 rows`
+- `trade_pipeline/output/` contains `trade_reporting.csv`, `trade_reporting.xlsx`, `metadata.json` and `pipeline.log`
 - A live run fetches from the API, or logs a warning and falls back to the cache
 
 ## Stretch
-- Add a `--start` / `--end` option that overrides the configured years.
-- Save a line chart of `exports_by_region_bn` as `output/exports_by_region.png` using matplotlib.
-- Schedule it with Windows Task Scheduler or cron.
+- Add `--start` / `--end` options that override the configured years.
+- Save a line chart of the regional summary as `output/exports_by_region.png` using matplotlib.
+- Schedule the pipeline with Windows Task Scheduler or cron.

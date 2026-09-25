@@ -18,14 +18,17 @@ log = logging.getLogger("trade_pipeline")
 
 
 def setup_logging(out_dir, verbose=False):
-    # TODO: Configure logging to the console AND to out_dir / 'pipeline.log'.
-    # Use DEBUG level when verbose, otherwise INFO. Include time, level and logger name.
+    # TODO STEP 1b: create out_dir, then logging.basicConfig(...) with level DEBUG if
+    # verbose else INFO, a format including %(asctime)s %(levelname)s %(name)s,
+    # and two handlers: logging.StreamHandler() and
+    # logging.FileHandler(out_dir / "pipeline.log").
     raise NotImplementedError
 
 
 def parse_args(argv=None):
-    # TODO: Use argparse to accept --out (Path, default config.DEFAULT_OUT),
-    # --offline (flag) and --verbose (flag). Return the parsed arguments.
+    # TODO STEP 1a: use argparse to accept --out (type=Path, default config.DEFAULT_OUT),
+    # --offline (action="store_true") and --verbose (action="store_true").
+    # Return p.parse_args(argv).  Check: pytest test_steps.py -k step01
     raise NotImplementedError
 
 

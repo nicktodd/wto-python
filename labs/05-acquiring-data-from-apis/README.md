@@ -1,49 +1,45 @@
 # Lab 05: Extract Economic Data from a Public API
 
-**Duration:** 60 minutes
-**Type:** Notebook code exercise using real data
+**Duration:** 60 to 75 minutes
+**Type:** Notebook code exercise using real data, built up in small steps
 
 ## Objectives
-- Send HTTP (HyperText Transfer Protocol) requests with the `requests` library
-- Understand and navigate JSON (JavaScript Object Notation) responses
-- Write a reusable, defensive API function
-- Convert API responses into tidy DataFrames and save them with metadata
+- Work with JSON (JavaScript Object Notation) in Python
+- Send HTTP (HyperText Transfer Protocol) requests with `requests`
+- Turn API records into a tidy DataFrame
+- Write a reusable, defensive API function with a cache fallback
+- Save data together with metadata about its source
 
 ## Data source
-The [World Bank Indicators API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392) is free, public and needs no API key. The data is licensed CC BY 4.0 (Creative Commons Attribution).
+The [World Bank Indicators API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392) is free, public and needs no API key (data licence CC BY 4.0).
 
 | Code | Indicator |
 |---|---|
 | `NE.EXP.GNFS.ZS` | Exports of goods and services (% of GDP) |
 | `NY.GDP.MKTP.CD` | GDP, Gross Domestic Product (current USD) |
 
-**No internet?** Cached responses (retrieved September 2026) are in `data/cache/wb_exports_pct_gdp.json` and `data/cache/wb_gdp_usd.json`. The lab shows you how to fall back to them.
+**No internet?** Cached responses (retrieved September 2026) are in `data/cache/`. Step B2 tells you the line to run instead of the live request, and Part E falls back to the cache automatically.
 
-## Setup
-```bash
-pip install requests
-```
-(already included in `requirements.txt`)
+## How this lab works
+Open `labs/05-acquiring-data-from-apis/extract_api.ipynb`. Each step does one thing, shows an **Example**, and has a **check** cell that prints `OK`.
 
-## Steps
-1. Open `labs/05-acquiring-data-from-apis/extract_api.ipynb`.
-2. Task 1: make a first request for Kenya and inspect status code, URL and metadata.
-3. Task 2: explore the JSON structure of one record.
-4. Task 3: write `fetch_indicator()` with a timeout, status check and error detection.
-5. Task 4: write `to_frame()` to convert records to a DataFrame.
-6. Task 5: extract both indicators for 14 economies, falling back to the cache on network errors, and merge them.
-7. Task 6: report missing values, add derived columns, and save CSV plus a metadata JSON file.
+| Part | You will practise | Steps |
+|---|---|---|
+| A | JSON text to Python; nested dictionaries | A1 to A3 |
+| B | Your first request; unpacking the response | B1 to B2 |
+| C | Looping over records; counting missing values; building rows; a DataFrame | C1 to C4 |
+| D | A reusable function; what a bad request looks like; making it defensive; `to_frame()` | D1 to D4 |
+| E | Two indicators with a cache fallback; merging them | E1 to E3 |
+| F | Tidying and saving with metadata | F1 to F2 |
 
 ## Hints
-- The World Bank returns `[metadata, records]`; unpack with `meta, records = resp.json()`.
-- An invalid request can return **status 200** with an error message in the body. Check the payload.
-- Catch `requests.RequestException` to handle timeouts and connection errors.
-- The API can be slow. If a request times out, retry once, then use the cache.
+- The World Bank returns `[metadata, records]`: unpack with `meta, records = resp.json()`.
+- An invalid request can return **status 200** with an error message inside. Check the content.
+- The API can be slow. If a request times out, re-run it once, then use the cache.
 
 ## Acceptance criteria
-- All check cells print `OK`
-- `output/wb_indicators.csv` has one row per country and year
-- `output/wb_indicators_metadata.json` records the source, indicators, date and row count
+- Every check cell prints `OK`
+- `output/wb_indicators.csv` and `output/wb_indicators_metadata.json` exist
 
 ## Stretch
-Register for the [WTO API portal](https://apiportal.wto.org) and read your key from an environment variable. Never commit keys to git.
+Register for the [WTO API portal](https://apiportal.wto.org) and read your key from an environment variable (`os.environ["WTO_API_KEY"]`). Never put keys in notebooks or git.
