@@ -3,7 +3,9 @@
 **Duration:** 12 minutes
 **Prerequisite:** JupyterLab open at `demos/05-acquiring-data-from-apis/world_bank_api.ipynb`. Test internet access before the session. The World Bank API is free but sometimes slow; if it times out, use the cache fallback cell and make that the teaching point.
 
-## Part 0: Day 2 setup check (2 min)
+The demo notebook has one `##` section per code slide, in slide order: run each section as you reach its slide. The sections below are the highlights to talk through.
+
+## Part 0: Setup check (2 min)
 Ask delegates to activate their virtual environment, run `jupyter lab`, and run the first cell of this notebook. Fix any environment problems now, not mid-lab.
 
 ## Part 1: JSON (2 min)

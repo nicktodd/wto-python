@@ -3,7 +3,7 @@
 **Duration:** 12 minutes
 **Prerequisite:** VS Code (Visual Studio Code) open at the repository root, with your organisation's approved AI assistant signed in (GitHub Copilot, ChatGPT, Claude or similar). Have `prompts.md` and `evaluation-checklist.md` from this folder open. Run a quick test prompt beforehand so you know the assistant is available. AI responses vary between runs, so expect different output from these notes.
 
-## Part 0: Day 3 setup check (2 min)
+## Part 0: Setup check (2 min)
 Ask delegates to open VS Code at the repository root, select the `.venv` Python interpreter, and open their AI assistant's chat panel. Confirm each person can get a response. If anyone has no assistant, pair them with someone who does.
 
 ## Part 1: Vague vs specific (4 min)

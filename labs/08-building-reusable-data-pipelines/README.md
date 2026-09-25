@@ -1,6 +1,6 @@
 # Lab 08: Create an End-to-End Extraction and Transformation Workflow
 
-**Duration:** 90 minutes (this lab is also the Day 2 consolidation exercise)
+**Duration:** 90 minutes (this lab also consolidates Modules 05 to 08)
 **Type:** Python package exercise, built up one function at a time (VS Code or any editor, plus a terminal)
 
 ## Objectives

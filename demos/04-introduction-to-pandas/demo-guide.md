@@ -3,6 +3,8 @@
 **Duration:** 12 minutes (run each section after its slide)
 **Prerequisite:** JupyterLab open at `demos/04-introduction-to-pandas/pandas_intro.ipynb`.
 
+The demo notebook has one `##` section per code slide, in slide order: run each section as you reach its slide. The sections below are the highlights to talk through.
+
 ## Part 1: DataFrames and Series (2 min)
 Run `trade.info()`. Point out the row count, the column types and "non-null" counts: "info() is the first thing to run on any new dataset."
 Show that one column is a `Series`, then `describe()`.
@@ -20,7 +22,7 @@ Create `balance_usd_m`. "Whole-column arithmetic: no loops needed. This is the b
 ## Part 4: Group and summarise (4 min)
 - `groupby` + `sum` = pivot table. `agg` with named outputs for several statistics at once.
 - `pivot_table` + `pct_change(axis=1)`: year-on-year growth for every country in one statement. Point at 2020.
-- Preview the merge with `countries.xlsx`: "We will do this properly on Day 2."
+- Preview the merge with `countries.xlsx`: "We will do this properly in Module 07."
 
 ## Key message
 pandas works on whole columns at once: select, filter, calculate and group replace hundreds of spreadsheet formulas with a few readable lines.

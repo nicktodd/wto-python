@@ -3,6 +3,8 @@
 **Duration:** 10 minutes
 **Prerequisite:** JupyterLab open at `demos/03-working-with-files/files.ipynb`. Delete any `output/` folder left over from a previous run.
 
+The demo notebook has one `##` section per code slide, in slide order: run each section as you reach its slide. The sections below are the highlights to talk through.
+
 ## Part 1: Paths (2 min)
 Run the `pathlib` cell. Explain `../../data`: "two folders up from this notebook, then into data."
 Show `DATA.resolve()` printing the absolute path. "Relative paths make the project portable: it works on anyone's laptop."

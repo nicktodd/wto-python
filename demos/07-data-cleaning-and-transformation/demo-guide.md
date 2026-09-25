@@ -3,6 +3,8 @@
 **Duration:** 12 minutes
 **Prerequisite:** JupyterLab open at `demos/07-data-cleaning-and-transformation/cleaning.ipynb`. Also open `data/trade_raw_2019_2023.csv` in Excel or a text editor so delegates can see the raw mess.
 
+The demo notebook has one `##` section per code slide, in slide order: run each section as you reach its slide. The sections below are the highlights to talk through.
+
 ## Part 1: Meet the mess (2 min)
 Show the CSV in Excel. Point at: `USA` / `U.S.` / `united states `, `Dec 2021` vs `31/12/2021`, `1,234.5`, `n/a`, the `USD thousands` rows.
 Run the first cell: `Value` is `object` (text) because of those values. "One bad value turns a whole column into text."

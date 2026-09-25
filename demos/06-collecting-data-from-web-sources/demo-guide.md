@@ -1,7 +1,12 @@
 # Demo: Module 06: Collecting Data from Web Sources
 
 **Duration:** 12 minutes
-**Prerequisite:** JupyterLab open at `demos/06-collecting-data-from-web-sources/scrape_exports.ipynb`. Also open https://en.wikipedia.org/wiki/List_of_countries_by_exports in a browser. If there is no internet, run the "Offline fallback" cell first and skip cells 1 and 2.
+**Prerequisite:** JupyterLab open at `demos/06-collecting-data-from-web-sources/scrape_exports.ipynb`. Also open https://en.wikipedia.org/wiki/List_of_countries_by_exports in a browser. If there is no internet, run the *Offline fallback* section first and continue from *Parsing the real page*.
+
+The demo notebook has one `##` section per code slide, in slide order: run each section as you reach its slide. The sections below are the highlights to talk through.
+
+## Part 0: A tiny table first (3 min)
+Run the four *tiny HTML table* sections. Show the six lines of HTML, then `find`, `find_all` and `get_text` on it. "Learn the tools where you can see everything; then the real page is just bigger."
 
 ## Part 1: Look before you scrape (3 min)
 - In the browser, right-click the exports table and choose **Inspect**. Show `<table class="wikitable">`, `<caption>`, `<tr>`, `<th>` and `<td>`.

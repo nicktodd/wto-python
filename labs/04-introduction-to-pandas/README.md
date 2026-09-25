@@ -1,6 +1,6 @@
 # Lab 04: Analyse Trade Data with pandas
 
-**Duration:** 75 to 90 minutes (this lab is also the Day 1 consolidation exercise)
+**Duration:** 75 to 90 minutes (this lab also consolidates Modules 01 to 04)
 **Type:** Notebook code exercise, built up in small steps
 
 ## Objectives
