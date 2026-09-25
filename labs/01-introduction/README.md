@@ -1,11 +1,12 @@
 # Lab 01: Explore a Trade Dataset
 
 **Duration:** 30 minutes
-**Type:** Notebook exploration
+**Type:** Guided notebook exploration: **no coding required**
 
 ## Objectives
 - Confirm your Python and JupyterLab environment works
-- Load a trade dataset and describe its structure
+- Run Python code in a Jupyter notebook and read its output
+- Describe the structure and coverage of a trade dataset
 - Turn a dataset into a set of analytical questions
 
 ## Setup
@@ -21,27 +22,28 @@ jupyter lab
 
 On macOS/Linux activate with `source .venv/bin/activate`.
 
-## Steps
+## How this lab works
+Every code cell in the notebook is **already written for you**. You will:
+1. read the short explanation above each cell,
+2. run the cell with **Shift+Enter**,
+3. look at the output and answer the question in the *Your answer* cell (double-click to edit).
 
+In two steps you make a tiny change (a number, a country name) and run the cell again. You will learn to write this kind of code yourself in Modules 02 to 04.
+
+## Steps
 1. In JupyterLab open `labs/01-introduction/explore_trade.ipynb`.
-2. Run the environment check cell (Shift+Enter). You should see Python 3.10+ and a pandas version.
-3. Load `data/trade_summary.csv` and display the first 10 rows.
-4. Describe the dataset: number of rows and columns, years, reporters and product groups.
-5. Run the yearly summary cell and explain the 2020 figures in a Markdown cell.
-6. Complete the analytical questions table (five questions).
-7. List two questions the data **cannot** answer and what extra data you would need.
+2. Work through Steps 1 to 8: check your environment, load the data, see its size and coverage, and look at trade by year, by country and by region.
+3. Step 9: write five analytical questions the data could answer.
+4. Step 10: list two questions it **cannot** answer and the extra data you would need.
 
 ## About the data
-
 `trade_summary.csv` (CSV: Comma-Separated Values) holds annual exports and imports in USD millions
 for 14 economies, 2019-2023, split into four product groups. It is illustrative data shaped like
 WTO statistics; do not quote the figures.
 
 ## Acceptance criteria
-- Every code cell runs without errors
-- The dataset description is complete
-- Five analytical questions, each with the columns it needs
-- Two gaps identified
+- Every code cell has been run without errors
+- Every *Your answer* cell is filled in
+- Five analytical questions, each with the columns it needs, and two data gaps
 
-## Stretch
-Open `data/tariffs_mfn.csv` in the same way. What questions become possible when you combine it with the trade data?
+Example answers are in `solutions/01-introduction/explore_trade.ipynb`.
